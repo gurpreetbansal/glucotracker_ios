@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="ufonts.com_gotham-book_0.ttf">
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+        </mutableArray>
+        <mutableArray key="ufonts.com_gotham-medium_1.ttf">
+            <string>GothamMedium</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="HistoryListViewCollectionViewCell" customModule="Vigori_Diary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="126" height="468"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="126" height="468"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="buG-4n-QFb">
+                        <rect key="frame" x="0.0" y="0.0" width="126" height="468"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcM-xu-e5e">
+                                <rect key="frame" x="0.0" y="390" width="125" height="77"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqP-9p-NQW" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="77"/>
+                                        <color key="backgroundColor" red="0.95813301279999996" green="0.95813301279999996" blue="0.95813301279999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bK2-Tk-hLC">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="77"/>
+                                        <connections>
+                                            <action selector="deleteBtnAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="BNw-s7-LZj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="VqP-9p-NQW" firstAttribute="top" secondItem="gcM-xu-e5e" secondAttribute="top" id="1NB-lq-syE"/>
+                                    <constraint firstAttribute="bottom" secondItem="bK2-Tk-hLC" secondAttribute="bottom" id="2Hi-eM-0cr"/>
+                                    <constraint firstItem="bK2-Tk-hLC" firstAttribute="leading" secondItem="gcM-xu-e5e" secondAttribute="leading" id="GCT-I1-8b8"/>
+                                    <constraint firstAttribute="trailing" secondItem="VqP-9p-NQW" secondAttribute="trailing" id="NJr-cj-Qeg"/>
+                                    <constraint firstItem="bK2-Tk-hLC" firstAttribute="top" secondItem="gcM-xu-e5e" secondAttribute="top" id="XNK-RV-h5Y"/>
+                                    <constraint firstAttribute="trailing" secondItem="bK2-Tk-hLC" secondAttribute="trailing" id="YHp-U4-gsa"/>
+                                    <constraint firstItem="VqP-9p-NQW" firstAttribute="leading" secondItem="gcM-xu-e5e" secondAttribute="leading" id="djQ-Ou-BKx"/>
+                                    <constraint firstAttribute="bottom" secondItem="VqP-9p-NQW" secondAttribute="bottom" id="rTU-Vt-4jT"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILp-fP-vTq" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="1" width="125" height="77"/>
+                                <color key="backgroundColor" red="0.8804887939512821" green="0.8804887939512821" blue="0.8804887939512821" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Bo-rh-LdI" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="79" width="125" height="77"/>
+                                <color key="backgroundColor" red="0.95813301282051277" green="0.95813301282051277" blue="0.95813301282051277" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLs-wK-3M9" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="157" width="125" height="77"/>
+                                <color key="backgroundColor" red="0.88048879400000002" green="0.88048879400000002" blue="0.88048879400000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O9N-6k-oew">
+                                <rect key="frame" x="0.0" y="312" width="125" height="77"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBh-qv-L5s" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="77"/>
+                                        <color key="backgroundColor" red="0.88048879400000002" green="0.88048879400000002" blue="0.88048879400000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TuO-l2-fIh">
+                                        <rect key="frame" x="53" y="29" width="20" height="20"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="ZXV-XC-uH5"/>
+                                            <constraint firstAttribute="width" constant="20" id="hmh-MF-O1k"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="fBh-qv-L5s" firstAttribute="leading" secondItem="O9N-6k-oew" secondAttribute="leading" id="2vL-oy-bTD"/>
+                                    <constraint firstAttribute="bottom" secondItem="fBh-qv-L5s" secondAttribute="bottom" id="E3X-KR-OGU"/>
+                                    <constraint firstItem="fBh-qv-L5s" firstAttribute="top" secondItem="O9N-6k-oew" secondAttribute="top" id="OO9-l7-vqQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="fBh-qv-L5s" secondAttribute="trailing" id="QTT-g5-CMQ"/>
+                                    <constraint firstItem="TuO-l2-fIh" firstAttribute="centerX" secondItem="O9N-6k-oew" secondAttribute="centerX" id="Qd0-8u-sD0"/>
+                                    <constraint firstItem="TuO-l2-fIh" firstAttribute="centerY" secondItem="O9N-6k-oew" secondAttribute="centerY" id="WFk-sp-3Mn"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4g4-Cr-gDK">
+                                <rect key="frame" x="0.0" y="235" width="125" height="76"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpj-6A-hbN" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="76"/>
+                                        <color key="backgroundColor" red="0.95813301279999996" green="0.95813301279999996" blue="0.95813301279999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iJm-XL-hRU">
+                                        <rect key="frame" x="50" y="25" width="25" height="25"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="9FM-zM-t3K"/>
+                                            <constraint firstAttribute="height" constant="25" id="fhW-1d-dL8"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Kpj-6A-hbN" firstAttribute="top" secondItem="4g4-Cr-gDK" secondAttribute="top" id="GiU-7N-nCM"/>
+                                    <constraint firstItem="iJm-XL-hRU" firstAttribute="centerX" secondItem="4g4-Cr-gDK" secondAttribute="centerX" id="Jyu-QR-vM4"/>
+                                    <constraint firstAttribute="trailing" secondItem="Kpj-6A-hbN" secondAttribute="trailing" id="clD-6M-vk5"/>
+                                    <constraint firstItem="Kpj-6A-hbN" firstAttribute="leading" secondItem="4g4-Cr-gDK" secondAttribute="leading" id="hB7-jW-rxE"/>
+                                    <constraint firstAttribute="bottom" secondItem="Kpj-6A-hbN" secondAttribute="bottom" id="lOJ-YW-ffa"/>
+                                    <constraint firstItem="iJm-XL-hRU" firstAttribute="centerY" secondItem="4g4-Cr-gDK" secondAttribute="centerY" id="oar-Us-8FB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fLs-wK-3M9" firstAttribute="top" secondItem="8Bo-rh-LdI" secondAttribute="bottom" constant="1" id="1EF-9V-r34"/>
+                            <constraint firstItem="ILp-fP-vTq" firstAttribute="leading" secondItem="buG-4n-QFb" secondAttribute="leading" id="Cr3-l0-iaY"/>
+                            <constraint firstItem="ILp-fP-vTq" firstAttribute="top" secondItem="buG-4n-QFb" secondAttribute="top" constant="1" id="Fsd-XM-xGm"/>
+                            <constraint firstItem="8Bo-rh-LdI" firstAttribute="leading" secondItem="buG-4n-QFb" secondAttribute="leading" id="Hhh-Pk-j5b"/>
+                            <constraint firstAttribute="trailing" secondItem="gcM-xu-e5e" secondAttribute="trailing" constant="1" id="Io8-rs-Ofd"/>
+                            <constraint firstItem="8Bo-rh-LdI" firstAttribute="height" secondItem="ILp-fP-vTq" secondAttribute="height" id="KEx-kU-V2i"/>
+                            <constraint firstAttribute="trailing" secondItem="ILp-fP-vTq" secondAttribute="trailing" constant="1" id="Kqh-a8-Jzj"/>
+                            <constraint firstItem="8Bo-rh-LdI" firstAttribute="top" secondItem="ILp-fP-vTq" secondAttribute="bottom" constant="1" id="NiJ-9J-lqc"/>
+                            <constraint firstItem="fLs-wK-3M9" firstAttribute="height" secondItem="ILp-fP-vTq" secondAttribute="height" id="O0v-2l-pfE"/>
+                            <constraint firstItem="O9N-6k-oew" firstAttribute="height" secondItem="gcM-xu-e5e" secondAttribute="height" id="V6m-SG-PST"/>
+                            <constraint firstItem="4g4-Cr-gDK" firstAttribute="height" secondItem="gcM-xu-e5e" secondAttribute="height" id="Xu4-qX-UeX"/>
+                            <constraint firstItem="gcM-xu-e5e" firstAttribute="top" secondItem="O9N-6k-oew" secondAttribute="bottom" constant="1" id="ceD-UU-1tb"/>
+                            <constraint firstItem="4g4-Cr-gDK" firstAttribute="leading" secondItem="buG-4n-QFb" secondAttribute="leading" id="dNf-7x-xhq"/>
+                            <constraint firstItem="fLs-wK-3M9" firstAttribute="leading" secondItem="buG-4n-QFb" secondAttribute="leading" id="fkM-Ms-owu"/>
+                            <constraint firstItem="O9N-6k-oew" firstAttribute="top" secondItem="4g4-Cr-gDK" secondAttribute="bottom" constant="1" id="fmo-5B-uff"/>
+                            <constraint firstItem="gcM-xu-e5e" firstAttribute="leading" secondItem="buG-4n-QFb" secondAttribute="leading" id="j0g-W4-jwC"/>
+                            <constraint firstAttribute="trailing" secondItem="fLs-wK-3M9" secondAttribute="trailing" constant="1" id="lAe-ve-G3C"/>
+                            <constraint firstAttribute="bottom" secondItem="gcM-xu-e5e" secondAttribute="bottom" constant="1" id="qJz-KB-AaV"/>
+                            <constraint firstItem="4g4-Cr-gDK" firstAttribute="top" secondItem="fLs-wK-3M9" secondAttribute="bottom" constant="1" id="rWT-rd-Bwd"/>
+                            <constraint firstAttribute="trailing" secondItem="8Bo-rh-LdI" secondAttribute="trailing" constant="1" id="tMd-4D-iH7"/>
+                            <constraint firstAttribute="trailing" secondItem="4g4-Cr-gDK" secondAttribute="trailing" constant="1" id="wKz-Oq-AKU"/>
+                            <constraint firstItem="O9N-6k-oew" firstAttribute="leading" secondItem="buG-4n-QFb" secondAttribute="leading" id="wxY-7C-WVV"/>
+                            <constraint firstAttribute="trailing" secondItem="O9N-6k-oew" secondAttribute="trailing" constant="1" id="yiv-Xr-ri6"/>
+                            <constraint firstItem="gcM-xu-e5e" firstAttribute="height" secondItem="ILp-fP-vTq" secondAttribute="height" id="zmU-1d-0qU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="buG-4n-QFb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Fel-pR-GMp"/>
+                <constraint firstAttribute="bottom" secondItem="buG-4n-QFb" secondAttribute="bottom" id="OJ1-gb-Iro"/>
+                <constraint firstItem="buG-4n-QFb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="UVh-VC-LBK"/>
+                <constraint firstAttribute="trailing" secondItem="buG-4n-QFb" secondAttribute="trailing" id="gRs-LI-4fv"/>
+            </constraints>
+            <size key="customSize" width="126" height="468"/>
+            <connections>
+                <outlet property="cellImgViewDiet" destination="iJm-XL-hRU" id="FZq-8I-kke"/>
+                <outlet property="cellImgViewMedi" destination="TuO-l2-fIh" id="1rN-Xn-YXO"/>
+                <outlet property="cellLblDate" destination="ILp-fP-vTq" id="FTI-0a-WUw"/>
+                <outlet property="cellLblDelete" destination="VqP-9p-NQW" id="c6G-t2-wuH"/>
+                <outlet property="cellLblDiet" destination="Kpj-6A-hbN" id="Ckx-ve-i4g"/>
+                <outlet property="cellLblMedi" destination="fBh-qv-L5s" id="dcC-nV-K8O"/>
+                <outlet property="cellLblResult" destination="fLs-wK-3M9" id="KmS-s3-dqx"/>
+                <outlet property="cellLblTime" destination="8Bo-rh-LdI" id="7BI-gy-PFB"/>
+            </connections>
+            <point key="canvasLocation" x="145" y="343"/>
+        </collectionViewCell>
+    </objects>
+</document>

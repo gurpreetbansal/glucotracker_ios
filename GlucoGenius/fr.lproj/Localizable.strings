@@ -1,0 +1,320 @@
+/*
+ Localizable.strings
+ Vigori Diary
+ 
+ Created by i mark on 10/11/16.
+ Copyright © 2016 i mark. All rights reserved.
+ */
+// French
+
+
+//Common
+
+mmol_LUnitText = "mmol/L";
+mg_dLUnitText = "mg/dL";
+inchUnitText = "inch";
+cmUnitText = "CM";
+unitAText = "Unit A";
+unitBtext = "Unit B";
+dextroseText = "Dextrose";
+
+kgUnitText = "Kg";
+lbUnitText = "lb";
+
+g_LUnitText = "g/L";
+g_dLUnitText = "g/dL";
+
+successtext = "le succès!";
+oopsText = "Oop!";
+errorText = "Erreur!";
+alertText = "Alerte!";
+okText = "D'accord";
+cancelText = "Annuler";
+messageText = "Message!";
+timePerMinUnitText = "time/min";
+auUnitText = "AU";
+yearsText = "Années";
+hideText = "Cacher";
+measureText = "Mesure";
+
+datesText = "Rendez-vous";
+timeText = "Temps";
+SpO2Text = "SpO2";
+
+signUPBtnText1 = "Vous n'avez pas de compte?";
+signUPBtnText2 = "S'inscrire";
+
+signUpVC.loginBtnText1 = "Vous avez déjà un compte?";
+signUpVC.loginBtnText2 = "S'identifier";
+
+helloText = "Bonjour";
+bloodGlucoseText = "Glucose sanguin";
+oxygenSaturationText = "Saturation d'oxygène";
+hemoglobinText = "Hémoglobine";
+bloodFlowVelocityText = "Vitesse du flux sanguin";
+pulseText = "Impulsion";
+yourRecentMeasurementAt = "Votre mesure récente à";
+
+resultText = "Résultat";
+dietText = "Régime";
+deleteText = "Effacer";
+
+
+reminderText = "Rappel";
+
+//Health reference Screen
+
+healthReferenceVC.title = "Référence de la Santé";
+menu.HealthRefText = "* Référence de la Santé *";
+
+//Test Result
+
+testResultVC.title = "Résultat du test";
+testResultVC.envrTempCode = "ET";
+testResultVC.envrHumiCode = "EH";
+testResultVC.surfTempCode = "ST";
+testResultVC.surfHumiCode = "SH";
+testResultVC.mailMessage = "Rapport Santé de l'utilisateur :";
+testResultVC.atText = "à";
+testResultVC.titleNotice = "La valeur d'échange du métabolisme est seulement une référence, pas une donnée de diagnostic.";
+unitNoteMessage = "*L'unité A représente mmol/L\n*L'unité B représente mg/dL";
+
+//MealSize selection Screen
+
+mealSizeVC.CarbohydrateText = "Ingestion de glucides";
+mealSizeVC.noticeText = "*Apport de carb adéquat est 1 portion, taille comme un poing.";
+mealSizeVC.smallText = "Petit";
+mealSizeVC.mediumText = "Moyen";
+mealSizeVC.largeText = "Grand";
+mealSizeVC.nextText = "Prochain";
+
+//Bluetooth connectivity Screen
+
+btConnVC.firstTitle = "Détection";
+btConnVC.secondTitle = "Essai";
+btConnVC.alert.timeOut = "Temps libre!";
+btConnVC.lblProcessingText = " Restez calme et \n gardez la posture actuelle";//
+
+btConnVC.lblInst1.text = "*Veuillez attendre l'instruction \n avant d'insérer le doigt";
+btConnVC.lblInst2.text = "*Température ambiante recommandée \n 20ﾟC - 27ﾟC";
+btConnVC.lblInst3.text = "*Température de doigt appropriée 29 ° C - 35 ° C";
+
+btConnVC.alert.resetDevice = "Veuillez réinitialiser l\'appareil avant utilisation!";
+btConnVC.alert.LessThan3mins = "Moins de 5 minutes, veuillez essayer plus tard!";
+btConnVC.alert.DeviceNotFound = "Appareil non trouvé";
+
+btConnVC.alert.deviceNotResponding = "Le périphérique ne répond pas. Veuillez le réinitialiser et réessayer.";
+btConnVC.alert.batteryLow = "L'alimentation de l'appareil est faible. Veuillez le charger avant le test.";
+
+btConnVC.alert.envrTempLow = "La température ambiante est trop basse.Cela peut affecter le résultat!";
+btConnVC.alert.envrTempHigh = "La température ambiante est élevée.Cela peut affecter le résultat";
+btConnVC.alert.envrTempDry = "La température ambiante est trop sèche. Cela peut affecter le résultat!";
+btConnVC.alert.envrHumid = "La température ambiante est trop humide. Cela peut affecter le résultat!";
+
+btConnVC.alert.probeNotInserted = "Doigt est pas insérée!";
+btConnVC.alert.fingerNotInsertedProperly = "Doigt mal inséré";
+btConnVC.alert.wrongDataCollection = "Mauvaise collecte de données, les capteurs n'ont pas réussi à obtenir suffisamment de données.";
+btConnVC.alert.probeNotInsertedProperly = "Mauvaise collecte de données, veuillez réessayer. Je vous remercie!";
+btConnVC.alert.checkSensors = "Vérifier le capteur.";
+btConnVC.alert.incorectTestResult = "Le résultat du test est incorrect. Veuillez insérer correctement le doigt.";
+
+btConnVC.alert.insertProbe = "Veuillez insérer votre doigt dans\n le capteur de clips.";
+btConnVC.alert.compliantEnvr = "Conforme aux conditions\n environnementales";
+btConnVC.alert.btDetectionfail = "Échec de la détection Bluetooth";
+btConnVC.alert.return = "Revenir en arrière...";
+btConnVC.alert.btDetection = "Détection Bluetooth...";
+btConnVC.alert.deviceDiscoonected = "Dispositif disonnected!";
+
+btConnVC.alert.probeInserted = "Doigt inséré";
+btConnVC.alert.probeRemoved = "Doigt retiré !";
+btConnVC.alert.fingerTempLow = "La température du doigt est faible. Cela peut affecter le résultat.";
+btConnVC.alert.fingerTempHigh = "La température du doigt est élevée. Cela peut affecter le résultat.";
+
+//Bluetooth devices Screen
+
+btDevicesVC.title = "Recherche Bluetooth";
+btDevicesVC.alert.deviceConnected = "Appareil connecté";
+btDevicesVC.headerText = "Dispositifs disponibles";
+
+//Login Screen
+
+loginVC.alert.userNotExist = "L'utilisateur n'existe pas";
+loginVC.alert.enterUsernamePwd = "Entrez le nom d'utilisateur et le mot de passe";
+
+
+//SignUp Screen // Edit user
+
+signUpVC.TextMale = "Mâle";
+signUpVC.TextFemale = "Femelle";
+signUpVC.alert.userExists = "L'utilisateur existe déjà";
+signUpVC.alert.heightInCmIncorrect = "Hauteur portée 50-250 cms.";
+signUpVC.alert.weightInKgIncorrect = "Poids 30-200 kgs.";
+signUpVC.alert.heightInInchIncorrect = "Hauteur portée 19.7-98.4 inch.";
+signUpVC.alert.weightInLbIncorrect = "Poids 66.19-440.9 lb.";
+//signUpVC.alert.MorningFastingAlert = "*Pas d'aliments sur 8 heures \n*Veuillez l'actualiser au moins une fois par semaine";
+signUpVC.alert.MorningFastingAlert = "* Pas d'aliments sur 8 heures \n* Calibrez la valeur de jeûne du matin une fois par semaine";
+
+signUpVC.alert.glucInMmolIncorrect = "Gamme de glucose 3.1-17.5 mmol/L.";
+signUpVC.alert.glucInMgIncorrect = "Gamme de glucose 55.86-315.3 mg/dL.";
+
+signUpVC.alert.fillAllData = "Tous les champs sont requis";
+signUpVC.alert.ageIncorrect = "Âge de 12 ans et plus";
+
+editProfile.title = "Modifier le profil";
+
+//Home Screen
+
+homeVC.alert.logOutAlert = "Voulez-vous vraiment exister?";
+homeVC.title = "Profil";
+
+//Normal user //Type2 User
+
+normalUserTestVC.alert.chooseMeal = "Veuillez choisir l'état du repas";
+normalUserTestVC.title = "Tester";
+type2UserTestVc.morningFastingAlert = "*Pas d'aliments sur 8 heures \n*Veuillez définir comme Normal";
+
+//Unit Settings screen
+
+unitSettingVC.title = "Réglage de l'unité";
+
+//Guide screen
+
+guideVC.title = "Guider";
+
+
+//History screen
+
+historyVC.title = "Histoire";
+
+historyVC.alert.noRecord = "Aucun Enregistrement Trouvé";
+
+historyVC.dayText = "Journée";
+historyVC.weekText = "Semaine";
+historyVC.monthText = "Mois";
+historyVC.periodText = "Période";
+
+historyVC.mailSubject = "Alerte santé";
+historyVC.mailMessage = "ESER Health Care Digital Technology Co Ltd";
+historyVC.alertTitle.mailNotSend = "Impossible d'envoyer un e-mail";
+historyVC.alert.mailNotSend = "Votre appareil ne peut pas envoyer d'e-mail. Veuillez vérifier le réglage, ouvrir Internet et réessayer.";
+
+historyVC.fileName = "Rapport sur la santé";
+historyVC.wrongPeriodDateSelectionAlertMessagse = "La date de début est supérieure à la date de fin, Veuillez choisir la période correcte";
+
+
+//Health Reminder screen
+
+healthReminderScreen.title = "Rappels";
+
+healthReminderVC.heading1 = "Sang de jeûne";
+healthReminderVC.heading2 = "Déjeuner";
+healthReminderVC.heading3 = "Le déjeuner";
+healthReminderVC.heading4 = "Dîner";
+healthReminderVC.heading5 = "En train de dormir";
+healthReminderVC.heading6 = "Autres";
+//Start test screen VC
+
+startTestVC.title = "Tester";
+startTestVC.lblInstText = "Se détendre. \n Ne pas appliquer de pression sur le capteur argenté.";
+
+//Measurement Settings screen
+
+measurementSettingsVC.title = "Réglage de la mesure";
+measurementSettingsVC.alert.incorrectValues = "Entrez les valeurs correctes";
+measurementSettingsVC.alert.IncompleteData = "Veuillez remplir toutes les valeurs!";
+measurementSettingsVC.alert.changeSettings = "Le réglage de la mesure sera modifié.";
+measurementSettingsVC.reportName = "Rapport sur la santé";
+
+//Select user
+
+selectUserVC.title = "Sélectionner un utilisateur";
+
+//User instruction screen // Power mgmt screen
+
+userInstVC.title = "Instruction utilisateur";
+powerMgmtVC.title = "Gestion de l'alimentation";
+
+userInstVC.lblContent = " Vigory Diary, est utile pour obtenir de nombreuses données sur la santé du corps.\n\n Il est non invasif, de sorte que vous ne sentirez pas de douleur au cours des tests. Vous pouvez également l'utiliser plusieurs fois par jour pour garder une trace de votre santé corporelle. \n\n Grâce à d'innombrables expériences en laboratoire et à la combinaison de la technologie des capteurs intégrés, Vigory Diary est également à collecter diverses données sur la santé.";
+
+powerMgmtVC.lblContent = "1) Appuyez sur le bouton d'alimentation pour l'allumer. \n\n2) L'appareil s'éteint automatiquement en 3 minutes sans.\n\n3) Après le test, appuyez sur le bouton d'alimentation pendant environ 3 secondes pour l'arrêter.\n\n4) Le test n'est pas autorisé pendant le chargement.\n\n5) Lorsque la batterie est inférieure à 30%, veuillez la recharger avant le test.";
+
+//Notices Screen
+noticeVC.title = "Avis";
+
+//product basics Screen
+
+productBasics.title = "Produits de base";
+
+//Edit Reminder Screen
+
+editReminder.title = "Modifier le rappel";
+editReminder.alert.saveChanges = "Voulez-vous enregistrer les modifications?";
+
+// Manage Accounts screen
+
+manageAccounts.title = "Gérer les comptes";
+manageAccounts.noUserFoundAlert = "Aucun utilisateur trouvé";
+manageAccounts.deleteAccAlert = "Êtes-vous sûr de vouloir supprimer les comptes sélectionnés?";
+manageAccounts.accDeletedAlert = "Les comptes ont été supprimés avec succès!";
+manageAccounts.noAccToDeleteAlert = "Sélectionnez le compte à supprimer";
+
+//Measurement Record
+
+measurementRecord.title = "Enregistrement de mesure";
+measurementRecord.2HrAfterMealText = "2 heures après le repas";
+measurementRecord.mrngFasting = "Matin du jeûne";
+
+measurementRecord.medicationText = "Des médicaments";
+measurementRecord.noMedicationText = "Aucun médicament";
+measurementRecord.alert.deleteRecord = "Voulez-vous vraiment supprimer l'enregistrement?";
+
+//Sidebar Menu
+
+menu.bluetoothText = "Bluetooth";
+menu.editUserText = "Modifier l'utilisateur";
+menu.unitSettingsText = "Réglage de l'unité";
+menu.reminderSettingsText = "Réglage du rappel";
+menu.measurementRecordsText = "Enregistrement de mesure";
+menu.switchUserText = "Changer d'utilisateur";
+menu.signOutText = "Se déconnecter";
+menu.manageAccountsText = "Gérer les comptes";
+
+//notifications
+
+notificationText = "La santé de votre rappel est fixé à";
+
+notificationText2 = "Votre rappel de médicament est réglé à";
+
+notificationText3 = "Votre rappel de mesure est réglé sur";
+
+notificationText4 = "Votre rappel de Mesure et médication est réglé à";
+
+reminderAlert = "Votre rappel de santé est réglé pour l'instant!";
+
+reminderAlert2 = "Veuillez rappeler la mesure et les médicaments";
+reminderAlert3 = "Veuillez rappeler les médicaments";
+reminderAlert4 = "Rappelez-vous bien pour la mesure";
+
+// Bluetooth connectivity screen
+
+BtConnVC.remainingTimeText = "Temps restant: ";
+BtConnVC.testing.screen1Text = "Vérifier régulièrement la santé";
+
+BtConnVC.testing.screen2Text = "Participer à 30 minutes d'activité physique la plupart des jours de la semaine";
+
+BtConnVC.testing.screen3Text = "Gérer le stress par des activités que vous trouvez relaxant";
+
+BtConnVC.testing.screen4Text = "Mangez bien \n suivre ci-dessous afin de régime et \n Partie 2 Partie 2 Partie Légumes \n \n Protéines Glucides Partie 1";
+
+BtConnVC.testing.screen5Text = "Bien dormir";
+
+BtConnVC.testing.screen6Text = "Restez hydraté";
+
+HealthReport.Content = "<Br /> Informations sur l'hémoglobine: <Br /><Br /> 1. La valeur de l'hémoglobine est faible: Plus fréquemment observée chez la femme, également connue sous le nom d'anémie. <Br /> 2.En cas de symptômes tels que vertiges, fatigue, selles goudronneuses ou selles de sang, il est recommandé de se rendre à l'hôpital pour un examen plus approfondi. <Br /> 3.Il est recommandé de consommer plus de fer riche en protéines et les aliments riches en vitamine C, il aide à l'absorption de fer. <Br /> 4. La valeur de l'hémoglobine est élevée: le sang est concentré et plus difficile à écouler. Il est recommandé d'aller à l'hôpital pour un examen plus approfondi. <Br /><Br /> Informations sur la glycémie: <Br /><Br /> Lorsque la valeur BGL est trop basse ou trop élevée, <Br /> 1.Vérifiez d'abord que le capteur intelligent est utilisé dans des conditions d'essai appropriées. <Br /> 2.Le glucose sanguin ne doit pas être inférieur à 100mg / dL , Il est recommandé de reconstituer le sucre corporel en mangeant un morceau de bonbons et de biscuits pour éviter la glycémie faible. <Br /> 3.La glycémie ne doit pas être supérieure à 300mg / dL, assurez-vous qu'aucun symptôme comme des étourdissements ou des vomissements ne se produisent. Buvez beaucoup d'eau et essayez de nouveau après une heure. <Br /> 4.Si la glycémie est supérieure à 300 mg / dL, il est recommandé de se rendre à l'hôpital pour un examen plus approfondi. <Br /><Br /> Informations sur l'impulsion: <Br /><Br /> Lorsque la valeur d'impulsion est faible ou élevée, Faible: inférieur à 60bpm, couramment observé dans le bloc atrioventriculaire ou augmentation de la pression intracrânienne. <Br /> 2.La valeur de pression est élevée: plus de 100bpm, couramment observée dans la fièvre, l'anémie ou les maladies coronariennes. <Br />  3.Il est généralement accompagné d'autres symptômes physiques, il est recommandé de se rendre à l'hôpital pour un examen plus approfondi. <Br /><Br /> Information sur la vitesse du débit sanguin: <Br /> <Br /> 1. La valeur BFV est indiquée comme unité de temps parcourue par une section Du vaisseau sanguin, également appelé «débit volumique». <Br /> 2.Le flux sanguin est affecté par les battements cardiaques systolique et diastolique. Le rythme cardiaque systolique accélère le flux sanguin et le rythme cardiaque diastolique ralentit le flux sanguin. <Br /> 3.Lorsque le vaisseau sanguin est élastique, le flux sanguin est plus lent; <Br /> 4.Nous pouvons utiliser les valeurs dérivées de ce test pour comparer le flux sanguin d'une personne d'âge similaire, et donc déduire si le vaisseau sanguin de la personne est vieilli plus vite que L'âge réel de la personne. <Br /><Br /> Comment garder vos vaisseaux sanguins élastiques: <Br /><Br /> 1. Maintenir l'exercice constant <Br /> 2. Maintenir l'apport nutritionnel équilibré tel que les protéines et les vitamines <Br /> 3.Reguler trois niveaux élevés: la glycémie, la tension artérielle et la graisse du sang . <Br /> 4.Rez suffisamment d'eau chaque jour pour réduire la viscosité des vaisseaux sanguins. <Br /><Br /> Information sur la saturation en oxygène (SpO2): <Br /><Br /> 1.Moins de 94%: manque d'oxygène. <Br /> 2.Moins de 90% Hypoxémie. <Br /> 3.En cas de SpO2 de moins de 90%, et montre des symptômes de la poitrine étouffante, la fatigue et la difficulté à respirer, il est recommandé d'aller à l'hôpital pour examen.";
+
+
+// Starting Screen
+title = "Une journée complète de vitalité commence par la surveillance de l'auto-santé.";
+popupTitle = "Avis d'utilisation de GlucoTracker";
+popupDesc = "Ces données de surveillance servent uniquement à surveiller votre état quotidien et ne peuvent remplacer la visite, les conseils, le diagnostic ou le traitement recommandé par le médecin. En cas d'anomalies numériques de la gestion de la santé, veuillez immédiatement vous rendre à l'hôpital pour une détection professionnelle.";
+acceptBtnText = "Acceptez";

@@ -1,0 +1,314 @@
+/*
+ Localizable.strings
+ Vigori Diary
+ 
+ Created by i mark on 10/11/16.
+ Copyright © 2016 i mark. All rights reserved.
+ */
+
+// ENGLISH
+
+
+// Common
+
+mmol_LUnitText = "mmol/L";
+mg_dLUnitText = "mg/dL";
+inchUnitText = "inch";
+cmUnitText = "CM";
+unitAText = "Unit A";
+unitBtext = "Unit B";
+dextroseText = "Dextrose";
+
+kgUnitText = "Kg";
+lbUnitText = "lb";
+
+g_LUnitText = "g/L";
+g_dLUnitText = "g/dL";
+
+successtext = "Success!";
+oopsText = "Oops!";
+errorText = "Error!";
+alertText = "Alert!";
+okText = "Ok";
+cancelText = "Cancel";
+messageText = "Message!";
+timePerMinUnitText = "time/min";
+auUnitText = "AU";
+yearsText = "Years";
+hideText = "Hide";
+
+datesText = "Dates";
+timeText = "Time";
+SpO2Text = "SpO2";
+
+resultText = "Result";
+dietText = "Diet";
+deleteText = "Delete";
+
+measureText = "Measure";
+signUPBtnText1 = "Don't have an account?";
+signUPBtnText2 = "Sign Up";
+
+signUpVC.loginBtnText1 = "Already have an account?";
+signUpVC.loginBtnText2 = "Log In";
+
+helloText = "Hello";
+bloodGlucoseText = "Blood glucose";
+oxygenSaturationText = "Oxygen saturation";
+hemoglobinText = "Hemoglobin";
+bloodFlowVelocityText = "Blood flow velocity";
+pulseText = "Pulse";
+yourRecentMeasurementAt = "Your recent measurement at";
+reminderText = "Reminder";
+
+// Test Result
+
+testResultVC.title = "Test Result";
+testResultVC.envrTempCode = "ET";
+testResultVC.envrHumiCode = "EH";
+testResultVC.surfTempCode = "ST";
+testResultVC.surfHumiCode = "SH";
+
+testResultVC.mailMessage = "Health report of User:";
+testResultVC.atText = "at";
+testResultVC.titleNotice = "Metabolism exchange value is reference only, not a diagnosis data";
+unitNoteMessage = "*Unit A stands for mmol/L\n*Unit B stands for mg/dL";
+
+// MealSize selection Screen
+
+mealSizeVC.CarbohydrateText = "Carbohydrate intake";
+mealSizeVC.noticeText = "*Suitable carb intake is 1 portion, size like a fist.";
+mealSizeVC.smallText = "Small";
+mealSizeVC.mediumText = "Medium";
+mealSizeVC.largeText = "Large";
+mealSizeVC.nextText = "NEXT";
+
+// Bluetooth connectivity Screen
+
+btConnVC.firstTitle = "Detection";
+btConnVC.secondTitle = "Testing";
+btConnVC.alert.timeOut = "Time Out!";
+btConnVC.lblProcessingText = "Please stay calm, and keep \n current posture";
+
+btConnVC.lblInst1.text = "*Please wait for instruction before \n inserting finger";
+btConnVC.lblInst2.text = "*Recommended ambient temperature \n 20°C - 27°C";
+btConnVC.lblInst3.text = "*Suitable finger temperature  29ﾟC – 35ﾟC";
+
+btConnVC.alert.resetDevice = "Please reset the device before Use!";
+btConnVC.alert.LessThan3mins = "Less than 5 mins, Please try later!";
+btConnVC.alert.DeviceNotFound = "Device not found";
+
+btConnVC.alert.deviceNotResponding = "Device is not Responding for test. Please Reset the device and try again!";
+btConnVC.alert.envrTempLow = "Environment Temp is too low for test, it may affect test results!";
+btConnVC.alert.batteryLow = "Device power is low. Please charge it before test.";
+
+btConnVC.alert.envrTempHigh = "Environment Temp is too high for test, it may affect test results!";
+btConnVC.alert.envrTempDry = "Environment is too dry for test, it may affect test results!";
+btConnVC.alert.envrHumid = "Environment Humidity is too high for test, it may affect test results!";
+
+btConnVC.alert.probeNotInserted = "Finger is not Inserted!";
+btConnVC.alert.fingerNotInsertedProperly = "Finger is not properly inserted!";
+btConnVC.alert.wrongDataCollection = "Wrong data collection, sensors failed to obtain sufficient data.";
+btConnVC.alert.probeNotInsertedProperly = "Data collection concern, please try again. Thank you!";
+btConnVC.alert.checkSensors = "Check sensors.";
+btConnVC.alert.incorectTestResult = "Test results are incorrect. Please insert your finger correctly.";
+
+btConnVC.alert.insertProbe = "Please insert your finger into \n finger clip sensor";
+btConnVC.alert.compliantEnvr = "Compliant to Environmental \n Condition";
+btConnVC.alert.btDetectionfail = "Bluetooth Detection Failed";
+btConnVC.alert.return = "Returning back...";
+btConnVC.alert.btDetection = "Bluetooth Detection...";
+btConnVC.alert.deviceDiscoonected = "Device disonnected!";
+
+btConnVC.alert.probeInserted = "Finger Inserted";
+btConnVC.alert.probeRemoved = "Finger Removed!";
+btConnVC.alert.fingerTempLow = "Finger temp is too low. This will affect results.";
+btConnVC.alert.fingerTempHigh = "Finger temp is too high. This will affect results.";
+
+// Bluetooth devices Screen
+
+btDevicesVC.title = "Bluetooth Search";
+btDevicesVC.alert.deviceConnected = "Device connected";
+btDevicesVC.headerText = "Available Devices";
+
+// Login Screen
+
+loginVC.alert.userNotExist = "User does not exists!";
+loginVC.alert.enterUsernamePwd = "Please enter Username and password for Login!";
+
+//Health reference Screen
+
+healthReferenceVC.title = "Health Reference";
+menu.HealthRefText = "* Health Reference *";
+
+// SignUp Screen // Edit user
+
+signUpVC.TextMale = "Male";
+signUpVC.TextFemale = "Female";
+signUpVC.alert.userExists = "User already exists!";
+signUpVC.alert.heightInCmIncorrect = "Height must be in range of 50-250 cms.";
+signUpVC.alert.weightInKgIncorrect = "Weight must be in range of 30-200 kgs.";
+signUpVC.alert.heightInInchIncorrect = "Height must be in range of 19.7-98.4 inch.";
+signUpVC.alert.weightInLbIncorrect = "Weight must be in range of 66.19-440.9 lb.";
+
+signUpVC.alert.glucInMmolIncorrect = "Glucose must be in range of 3.1-17.5 mmol/L.";
+signUpVC.alert.glucInMgIncorrect = "Glucose must be in range of 55.86-315.3 mg/dL.";
+
+signUpVC.alert.fillAllData = "All fields are Required!";
+signUpVC.alert.ageIncorrect = "You must be 12 years of age or older.";
+
+editProfile.title = "Edit Profile";
+//signUpVC.alert.MorningFastingAlert = "* Having no foods over 8 hours\n* Please update it at least once a week";
+signUpVC.alert.MorningFastingAlert = "* Having no foods over 8 hours\n* Please calibrate the morning fasting value once a week";
+
+// Home Screen
+
+homeVC.alert.logOutAlert = "Are you sure you want to exit?";
+homeVC.title = "Profile";
+
+// Normal user //Type2 User
+
+normalUserTestVC.alert.chooseMeal = "Please choose meal first!";
+normalUserTestVC.title = "Test";
+type2UserTestVc.morningFastingAlert = "*Having no foods over 8 hours \n*Please set as Normal for test";
+
+// Unit Settings screen
+
+unitSettingVC.title = "Unit Settings";
+
+// Guide screen
+
+guideVC.title = "Guide";
+
+// History screen
+
+historyVC.title = "History";
+historyVC.alert.noRecord = "No record Found";
+historyVC.dayText = "Day";
+historyVC.weekText = "Week";
+historyVC.monthText = "Month";
+historyVC.periodText = "Period";
+
+historyVC.mailSubject = "Health Alert";
+historyVC.mailMessage = "ESER Health Care Digital Technology Co Ltd";
+historyVC.alertTitle.mailNotSend = "Could Not Send Email";
+historyVC.alert.mailNotSend = "Your device could not send e-mail.  Please check e-mail configuration and try again.";
+
+historyVC.fileName = "HealthReport";
+historyVC.wrongPeriodDateSelectionAlertMessagse = "Start date is greater than end date, Please choose correct time period";
+
+// Health Reminder screen
+
+healthReminderScreen.title = "Reminders";
+
+healthReminderVC.heading1 = "Fasting Blood";
+healthReminderVC.heading2 = "Breakfast";
+healthReminderVC.heading3 = "Lunch";
+healthReminderVC.heading4 = "Dinner";
+healthReminderVC.heading5 = "Sleeping";
+healthReminderVC.heading6 = "Others";
+// Start test screen VC
+
+startTestVC.title = "Test";
+startTestVC.lblInstText = "Relax! \n Don't apply pressure on silver sensor.";
+
+//Measurement Settings screen
+
+measurementSettingsVC.title = "Measurement Settings";
+measurementSettingsVC.alert.incorrectValues = "Enter correct values";
+measurementSettingsVC.alert.IncompleteData = "Please fill all values!";
+measurementSettingsVC.alert.changeSettings = "Measurement Settings will be changed!";
+measurementSettingsVC.reportName = "HealthReport";
+
+// Select user
+
+selectUserVC.title = "Select User";
+
+// User instruction screen // Power mgmt screen
+
+userInstVC.title = "User Instructions";
+powerMgmtVC.title = "Power Management";
+
+userInstVC.lblContent = "Vigory Diary, Health Assistant is useful for obtaining many body health data.\n\nIt is non-invasive, so you will not feel any pain during testing. You can also use it several times a day to keep track of your body health. \n\nThrough countless laboratory-based experiments and combination of integrated sensor technology, Vigory Diary is also to collect various health data.";
+
+powerMgmtVC.lblContent = "1)Press power button to switch on. \n\n2)Device will automatically shut down in 3 minutes without using.\n\n3)After testing, please press power button around 3 seconds to shut down. \n\n4)Testing is not allowed during charging.\n\n5)When battery is lower than 30%, please recharge it before testing";
+
+// Notices Screen
+noticeVC.title = "Notice";
+
+// Product basics Screen
+
+productBasics.title = "Product Basics";
+
+// Edit Reminder Screen
+
+editReminder.title = "Edit Reminder";
+editReminder.alert.saveChanges = "Do you want to save changes?";
+
+// Manage Accounts screen
+
+manageAccounts.title = "Manage Accounts";
+manageAccounts.noUserFoundAlert = "No user found";
+manageAccounts.deleteAccAlert = "Are you sure you want to delete selected accounts?";
+manageAccounts.accDeletedAlert = "Accounts has been deleted successfully!";
+manageAccounts.noAccToDeleteAlert = "Please select account to delete";
+
+
+// Measurement Record
+
+measurementRecord.title = "Measurement Record";
+measurementRecord.2HrAfterMealText = "2 hours after meal";
+measurementRecord.mrngFasting = "Morning fasting";
+
+measurementRecord.medicationText = " Medication";
+measurementRecord.noMedicationText = "No Medication";
+measurementRecord.alert.deleteRecord = "Are you sure you want to delete record?";
+
+// Sidebar Menu
+
+menu.bluetoothText = "Bluetooth";
+menu.editUserText = "Edit User";
+menu.unitSettingsText = "Unit Settings";
+menu.reminderSettingsText = "Reminder Settings";
+menu.measurementRecordsText = "Measurement Records";
+menu.switchUserText = "Switch User";
+menu.signOutText = "Sign Out";
+menu.manageAccountsText = "Manage Accounts";
+
+// Notifications
+
+notificationText = "Your Health reminder is set at";
+
+notificationText2 = "Your Medication reminder is set at";
+notificationText3 = "Your Measure reminder is set at";
+notificationText4 = "Your Measure and Medication reminder is set at";
+
+reminderAlert = "Your health reminder is set for current time!";
+reminderAlert2 = "Kindly remind for measure and medication";
+reminderAlert3 = "Kindly remind for medication";
+reminderAlert4 = "Kindly remind for measure";
+
+// Bluetooth connectivity screen
+
+BtConnVC.remainingTimeText = "Remaining time: ";
+
+BtConnVC.testing.screen1Text = "Check health regularly";
+
+BtConnVC.testing.screen2Text = "Participate in 30 minutes of physical activity on most days of the week";
+
+BtConnVC.testing.screen3Text = "Manage stress through activities you find relaxing";
+
+BtConnVC.testing.screen4Text = "Eat Well \n Follow below diet order and portion \n 2 Portion Vegetables \n 2 Portion Protein \n 1 Portion Carbohydrates";
+
+BtConnVC.testing.screen5Text = "Sleep Well";
+
+BtConnVC.testing.screen6Text = "Stay Hydrated";
+
+HealthReport.Content = "<Br /> Hemoglobin information: <Br /><Br /> 1.Hemoglobin value is low: More commonly seen in female, also commonly known as anemia. <Br /> 2.In symptoms such as dizziness, fatigue, tarry stool, or blood stool, it is recommended to go to the hospital for further examination. <Br /> 3.It is recommended to consume more iron rich and protein rich foods, and also vitamin-C, it helps iron absorption. <Br /> 4.Hemoglobin value is high: Blood is concentrated, and harder to flow. It is recommended to go to hospital for further examination. <Br /><Br /> Glucose information: <Br /><Br /> When BGL value is too low or too high, <Br /> 1.First check that the smart sensor is used under suitable testing conditions.<Br /> 2.Blood glucose should not be lower than 100mg/dL, it is recommended to replenish body sugar by eating piece of candy and cookie to avoid low blood sugar. <Br /> 3.Blood glucose should not be above 300mg/dL, make sure no symptoms such as dizziness or vomiting occur. Drink plenty of water and test again after one hour. <Br /> 4.If blood glucose is above 300 mg/dL, it is recommended to go hospital for further examination.<Br /><Br /> Pulse information: <Br /><Br /> When Pulse value is low or high, <Br /> 1.Pulse value is low: lower than 60bpm, commonly seen in atrioventricular block or increased intracranial pressure. <Br /> 2.Pulse value is high: more than 100bpm, commonly seen in fever, anemia, or coronary heart diseases. <Br /> 3.It is usually companied with other physical symptoms, it is recommended to go hospital for further examination.<Br /><Br /> Blood Flow Velocity information: <Br /><Br /> 1. BFV value is denoted as the unit time flown through a section of the blood vessel, also called ‘volume rate’.<Br /> 2.Arterial blood flow is affected by systolic and diastolic heartbeat. Systolic heartbeat speeds up the blood flow, and diastolic heartbeat slows down the blood flow.<Br /> 3.When blood vessel is elastic, blood flow is slower; When blood vessel becomes stuff, blood flow will be significantly faster.<Br /> 4.We can use the values derived from this testing to compare the blood flow of a person of similar age, and therefore deduce whether the person’s blood vessel is aged faster than the actual person’s age. <Br /><Br /> How to keep your blood vessels elastic:<Br /><Br /> 1.Maintain constant exercise <Br /> 2.Maintain balanced nutrition intake such as proteins and vitamins <Br />3.Regulate three highs: blood glucose, blood pressure, and blood fat.<Br /> 4.Drink enough water daily to reduce blood vessel stickiness.<Br /><Br /> Oxygen Saturation(SpO2) Information:<Br /><Br /> 1.Less than 94%: Lack of Oxygen.<br /> 2.Less than 90%: Hypoxemia. <Br /> 3.In case of SpO2 less than 90%, and shows symptoms of stuffy chest, fatigue and difficulty in breathing, it is recommended to go to hospital for examination.";
+
+
+// Starting Screen
+title = "Full day of vitality begins with self-health monitoring";
+popupTitle = "GlucoTracker Usage Notice";
+popupDesc = "This monitoring data is just for monitoring your daily status and can not replace the doctor’s visit, counseling, diagnosis or recommended treatment. If the health management numerical abnormalities, please immediately go to the hospital for professional detection.";
+acceptBtnText = "Accept";

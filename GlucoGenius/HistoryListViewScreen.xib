@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham Book.ttf">
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+            <string>GothamBook</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="HistoryListViewScreen" id="n2V-ze-caE" customClass="HistoryListViewScreen" customModule="Vigori_Diary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" pagingEnabled="YES" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="fSB-22-4f3">
+                    <rect key="frame" x="74" y="0.0" width="246" height="568"/>
+                    <color key="backgroundColor" red="0.95813301279999996" green="0.95813301279999996" blue="0.95813301279999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="eIO-9z-fBB">
+                        <size key="itemSize" width="0.0" height="0.0"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="n2V-ze-caE" id="Uac-cs-0T8"/>
+                        <outlet property="delegate" destination="n2V-ze-caE" id="jI4-eM-1fc"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kd3-fe-yNF">
+                    <rect key="frame" x="0.0" y="0.0" width="74" height="568"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="Dgi-Pc-usc" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                            <rect key="frame" x="1" y="1" width="72" height="94"/>
+                            <color key="backgroundColor" red="0.88048879400000002" green="0.88048879400000002" blue="0.88048879400000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.34106206750000001" blue="0.67792467950000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="piH-Lj-NK2" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                            <rect key="frame" x="1" y="96" width="72" height="93"/>
+                            <color key="backgroundColor" red="0.95813301279999996" green="0.95813301279999996" blue="0.95813301279999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.34106206750000001" blue="0.67792467950000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="FN3-zc-l3T" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                            <rect key="frame" x="1" y="285" width="72" height="93"/>
+                            <color key="backgroundColor" red="0.95813301279999996" green="0.95813301279999996" blue="0.95813301279999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.34106206750000001" blue="0.67792467950000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="LlF-Kn-jKf" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                            <rect key="frame" x="1" y="474" width="72" height="93"/>
+                            <color key="backgroundColor" red="0.95813301279999996" green="0.95813301279999996" blue="0.95813301279999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.34106206750000001" blue="0.67792467950000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKY-wS-Gyj">
+                            <rect key="frame" x="1" y="379" width="72" height="94"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medication" translatesAutoresizingMaskIntoConstraints="NO" id="cJy-J2-IHG">
+                                    <rect key="frame" x="24" y="34" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="Zxs-Tu-jvg"/>
+                                        <constraint firstAttribute="width" constant="25" id="hRC-c7-io5"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.88048879400000002" green="0.88048879400000002" blue="0.88048879400000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="cJy-J2-IHG" firstAttribute="centerX" secondItem="gKY-wS-Gyj" secondAttribute="centerX" id="Zpi-J9-C3U"/>
+                                <constraint firstItem="cJy-J2-IHG" firstAttribute="centerY" secondItem="gKY-wS-Gyj" secondAttribute="centerY" id="sXj-aC-kbx"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="D4K-IQ-jJB" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                            <rect key="frame" x="1" y="190" width="72" height="94"/>
+                            <color key="backgroundColor" red="0.88048879400000002" green="0.88048879400000002" blue="0.88048879400000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.34106206750000001" blue="0.67792467950000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Dgi-Pc-usc" secondAttribute="trailing" constant="1" id="0DW-u3-uM5"/>
+                        <constraint firstAttribute="width" constant="74" id="3mG-Xr-IEQ"/>
+                        <constraint firstItem="D4K-IQ-jJB" firstAttribute="top" secondItem="piH-Lj-NK2" secondAttribute="bottom" constant="1" id="7fm-Jb-ID0"/>
+                        <constraint firstItem="Dgi-Pc-usc" firstAttribute="top" secondItem="kd3-fe-yNF" secondAttribute="top" constant="1" id="B2i-ft-jof"/>
+                        <constraint firstItem="piH-Lj-NK2" firstAttribute="leading" secondItem="kd3-fe-yNF" secondAttribute="leading" constant="1" id="CpV-NF-Oue"/>
+                        <constraint firstItem="piH-Lj-NK2" firstAttribute="height" secondItem="Dgi-Pc-usc" secondAttribute="height" id="EvE-GL-dII"/>
+                        <constraint firstAttribute="trailing" secondItem="D4K-IQ-jJB" secondAttribute="trailing" constant="1" id="FQY-2C-KY6"/>
+                        <constraint firstItem="LlF-Kn-jKf" firstAttribute="leading" secondItem="kd3-fe-yNF" secondAttribute="leading" constant="1" id="H3i-eC-85Q"/>
+                        <constraint firstAttribute="trailing" secondItem="piH-Lj-NK2" secondAttribute="trailing" constant="1" id="HdD-ze-uOz"/>
+                        <constraint firstAttribute="trailing" secondItem="LlF-Kn-jKf" secondAttribute="trailing" constant="1" id="JVH-LF-BSb"/>
+                        <constraint firstItem="FN3-zc-l3T" firstAttribute="leading" secondItem="kd3-fe-yNF" secondAttribute="leading" constant="1" id="MBd-bF-Dt9"/>
+                        <constraint firstAttribute="bottom" secondItem="LlF-Kn-jKf" secondAttribute="bottom" constant="1" id="Pwq-K2-ftn"/>
+                        <constraint firstItem="LlF-Kn-jKf" firstAttribute="height" secondItem="gKY-wS-Gyj" secondAttribute="height" id="QqR-Vn-fE9"/>
+                        <constraint firstItem="LlF-Kn-jKf" firstAttribute="height" secondItem="Dgi-Pc-usc" secondAttribute="height" id="YzS-vB-YYM"/>
+                        <constraint firstItem="D4K-IQ-jJB" firstAttribute="height" secondItem="Dgi-Pc-usc" secondAttribute="height" id="dk6-1l-LO8"/>
+                        <constraint firstItem="LlF-Kn-jKf" firstAttribute="top" secondItem="gKY-wS-Gyj" secondAttribute="bottom" constant="1" id="fKc-nW-5m7"/>
+                        <constraint firstAttribute="trailing" secondItem="gKY-wS-Gyj" secondAttribute="trailing" constant="1" id="fh8-vy-pbM"/>
+                        <constraint firstAttribute="trailing" secondItem="FN3-zc-l3T" secondAttribute="trailing" constant="1" id="hSa-c3-yc6"/>
+                        <constraint firstItem="FN3-zc-l3T" firstAttribute="top" secondItem="D4K-IQ-jJB" secondAttribute="bottom" constant="1" id="iSE-bI-kxa"/>
+                        <constraint firstItem="gKY-wS-Gyj" firstAttribute="top" secondItem="FN3-zc-l3T" secondAttribute="bottom" constant="1" id="mjL-yI-yF5"/>
+                        <constraint firstItem="Dgi-Pc-usc" firstAttribute="leading" secondItem="kd3-fe-yNF" secondAttribute="leading" constant="1" id="ntS-3y-Vec"/>
+                        <constraint firstItem="piH-Lj-NK2" firstAttribute="top" secondItem="Dgi-Pc-usc" secondAttribute="bottom" constant="1" id="qXW-Hr-S3y"/>
+                        <constraint firstItem="D4K-IQ-jJB" firstAttribute="leading" secondItem="kd3-fe-yNF" secondAttribute="leading" constant="1" id="ugj-v8-e96"/>
+                        <constraint firstItem="gKY-wS-Gyj" firstAttribute="leading" secondItem="kd3-fe-yNF" secondAttribute="leading" constant="1" id="v4l-DO-GXy"/>
+                        <constraint firstItem="FN3-zc-l3T" firstAttribute="height" secondItem="Dgi-Pc-usc" secondAttribute="height" id="vbZ-6J-MzQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fSB-22-4f3" secondAttribute="trailing" id="691-IN-mD6"/>
+                <constraint firstAttribute="bottom" secondItem="fSB-22-4f3" secondAttribute="bottom" id="8a5-kx-qfA"/>
+                <constraint firstAttribute="bottom" secondItem="kd3-fe-yNF" secondAttribute="bottom" id="GAE-C5-xa1"/>
+                <constraint firstItem="fSB-22-4f3" firstAttribute="top" secondItem="n2V-ze-caE" secondAttribute="top" id="XiH-gh-e1I"/>
+                <constraint firstItem="fSB-22-4f3" firstAttribute="leading" secondItem="kd3-fe-yNF" secondAttribute="trailing" id="ZaR-T5-GVm"/>
+                <constraint firstItem="kd3-fe-yNF" firstAttribute="top" secondItem="n2V-ze-caE" secondAttribute="top" id="iDa-9Q-gS6"/>
+                <constraint firstItem="fSB-22-4f3" firstAttribute="leading" secondItem="n2V-ze-caE" secondAttribute="leading" constant="75" id="lMh-zt-Tjx"/>
+                <constraint firstItem="kd3-fe-yNF" firstAttribute="leading" secondItem="n2V-ze-caE" secondAttribute="leading" id="z5M-Hv-FmP"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="lMh-zt-Tjx"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="collectionView" destination="fSB-22-4f3" id="Y6H-bb-RHe"/>
+                <outlet property="headingViewWidthConst" destination="3mG-Xr-IEQ" id="xTw-Nu-1z9"/>
+                <outlet property="lblDate" destination="Dgi-Pc-usc" id="bvJ-Zk-Iw7"/>
+                <outlet property="lblDelete" destination="LlF-Kn-jKf" id="oiQ-8d-HJf"/>
+                <outlet property="lblDiet" destination="FN3-zc-l3T" id="boL-D1-dRq"/>
+                <outlet property="lblResult" destination="D4K-IQ-jJB" id="dhZ-uc-aXD"/>
+                <outlet property="lblTime" destination="piH-Lj-NK2" id="hIo-HY-cu4"/>
+            </connections>
+            <point key="canvasLocation" x="730" y="450"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="medication" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Vigori Diary
+
+  Created by i mark on 28/11/16.
+  Copyright © 2016 i mark. All rights reserved.
+*/
+"CFBundleDisplayName" = "葡萄糖追踪器";
+"CFBundleDevelopmentRegion" = "en";

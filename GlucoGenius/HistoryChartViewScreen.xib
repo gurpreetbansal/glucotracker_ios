@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="HistoryChartViewScreen" id="QXK-0e-DTg" customClass="HistoryChartViewScreen" customModule="Vigori_Diary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="92k-xC-SfU">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Mq-6M-Aci">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQX-Y9-msm" customClass="BarChartView" customModule="Charts">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="568" id="acY-9J-OcX"/>
+                                        <constraint firstAttribute="width" constant="320" id="eCy-4r-J6B"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="AQX-Y9-msm" firstAttribute="top" secondItem="3Mq-6M-Aci" secondAttribute="top" id="2yD-lQ-Ne6"/>
+                                <constraint firstAttribute="trailing" secondItem="AQX-Y9-msm" secondAttribute="trailing" id="8yc-0Q-t4b"/>
+                                <constraint firstItem="AQX-Y9-msm" firstAttribute="top" secondItem="3Mq-6M-Aci" secondAttribute="top" id="9tJ-m8-plh"/>
+                                <constraint firstAttribute="bottom" secondItem="AQX-Y9-msm" secondAttribute="bottom" id="LxB-YK-gqB"/>
+                                <constraint firstItem="AQX-Y9-msm" firstAttribute="top" secondItem="3Mq-6M-Aci" secondAttribute="top" constant="135" id="VGa-8r-UPy"/>
+                                <constraint firstItem="AQX-Y9-msm" firstAttribute="leading" secondItem="3Mq-6M-Aci" secondAttribute="leading" id="ebl-qP-MPs"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="9tJ-m8-plh"/>
+                                    <exclude reference="VGa-8r-UPy"/>
+                                </mask>
+                            </variation>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="3Mq-6M-Aci" firstAttribute="top" secondItem="92k-xC-SfU" secondAttribute="top" id="6qN-Lz-Bvy"/>
+                        <constraint firstItem="3Mq-6M-Aci" firstAttribute="leading" secondItem="92k-xC-SfU" secondAttribute="leading" id="gB7-2t-MaV"/>
+                        <constraint firstAttribute="bottom" secondItem="3Mq-6M-Aci" secondAttribute="bottom" id="hwO-SQ-ZPk"/>
+                        <constraint firstAttribute="trailing" secondItem="3Mq-6M-Aci" secondAttribute="trailing" id="ybw-0K-Yy7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="92k-xC-SfU" secondAttribute="trailing" id="0ca-bp-mQX"/>
+                <constraint firstItem="92k-xC-SfU" firstAttribute="top" secondItem="QXK-0e-DTg" secondAttribute="top" id="9Uh-ns-qLu"/>
+                <constraint firstItem="92k-xC-SfU" firstAttribute="leading" secondItem="QXK-0e-DTg" secondAttribute="leading" id="Can-9b-Z3J"/>
+                <constraint firstAttribute="bottom" secondItem="92k-xC-SfU" secondAttribute="bottom" id="Sje-nH-TA0"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="chartView" destination="AQX-Y9-msm" id="HF9-LW-JeA"/>
+                <outlet property="innerViewHeightConst" destination="acY-9J-OcX" id="Q88-be-ymJ"/>
+                <outlet property="innerViewWidthConst" destination="eCy-4r-J6B" id="Y14-o1-Zrr"/>
+                <outlet property="scrollView" destination="3Mq-6M-Aci" id="Sh8-aF-Tup"/>
+            </connections>
+            <point key="canvasLocation" x="586" y="468"/>
+        </view>
+    </objects>
+</document>

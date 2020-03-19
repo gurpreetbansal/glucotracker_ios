@@ -1,0 +1,600 @@
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "0VA-w4-VTZ"; */
+"0VA-w4-VTZ.placeholder" = "Nom d'utilisateur";
+
+/* Class = "UILabel"; text = "kg"; ObjectID = "0c1-Oc-HsF"; */
+"0c1-Oc-HsF.text" = "kg";
+
+/* Class = "UILabel"; text = "Email3"; ObjectID = "1DS-bB-d9q"; */
+"1DS-bB-d9q.text" = "Email3";
+
+/* Class = "UIButton"; normalTitle = "SpO2"; ObjectID = "1G0-II-esr"; */
+"1G0-II-esr.normalTitle" = "La SpO2";
+
+/* Class = "UILabel"; text = "Diabetes type:"; ObjectID = "1e2-kM-JLL"; */
+"1e2-kM-JLL.text" = "Sélectionner le type:";
+
+/* Class = "UILabel"; text = "Measure"; ObjectID = "2YE-oL-Os5"; */
+"2YE-oL-Os5.text" = "Mesurer";
+
+/* Class = "UILabel"; text = "Medication"; ObjectID = "2j7-hB-f2K"; */
+"2j7-hB-f2K.text" = "Ces médicaments";
+
+/* Class = "UILabel"; text = "Shell Temp./Humi."; ObjectID = "37I-NT-1Kb"; */
+"37I-NT-1Kb.text" = "Température/humidité shell";
+
+/* Class = "UILabel"; text = "Peter Robins"; ObjectID = "37u-W5-So8"; */
+"37u-W5-So8.text" = "Peter Robins";
+
+/* Class = "UILabel"; text = "Start test"; ObjectID = "3Ac-KR-XJR"; */
+"3Ac-KR-XJR.text" = "Test de démarrage";
+
+/* Class = "UILabel"; text = "Range: 30-200 kgs"; ObjectID = "3Gs-az-VH5"; */
+"3Gs-az-VH5.text" = "Portée : 30 à 200 kg";
+
+/* Class = "UILabel"; text = "inch"; ObjectID = "3Uf-8J-W1f"; */
+"3Uf-8J-W1f.text" = "Pouce";
+
+/* Class = "UILabel"; text = "Pulse"; ObjectID = "3Xi-mS-mlE"; */
+"3Xi-mS-mlE.text" = "Pulse";
+
+/* Class = "UIButton"; normalTitle = "Blood Flow"; ObjectID = "3YY-Pu-z5V"; */
+"3YY-Pu-z5V.normalTitle" = "L'écoulement de sang";
+
+/* Class = "UISegmentedControl"; 3dC-AL-Lyo.segmentTitles[0] = "mmol/L"; ObjectID = "3dC-AL-Lyo"; */
+"3dC-AL-Lyo.segmentTitles[0]" = "mmol/L";
+
+/* Class = "UISegmentedControl"; 3dC-AL-Lyo.segmentTitles[1] = "mg/dL"; ObjectID = "3dC-AL-Lyo"; */
+"3dC-AL-Lyo.segmentTitles[1]" = "mg/dL";
+
+/* Class = "UILabel"; text = ""; ObjectID = "4TX-QD-uZP"; */
+"4TX-QD-uZP.text" = "";
+
+/* Class = "UILabel"; text = "User Instruction"; ObjectID = "5vg-ip-uJs"; */
+"5vg-ip-uJs.text" = "L'instruction de l'utilisateur";
+
+/* Class = "UILabel"; text = "Ambient temp./Humi."; ObjectID = "69w-Pn-2o0"; */
+"69w-Pn-2o0.text" = "Température/humidité ambiante";
+
+/* Class = "UITextField"; text = "94"; ObjectID = "6FJ-jS-sEg"; */
+"6FJ-jS-sEg.text" = "94";
+
+/* Class = "UILabel"; text = "Glucose(Morning fasting)"; ObjectID = "6NR-6b-iC1"; */
+"6NR-6b-iC1.text" = "Dextrose(matin)";
+
+/* Class = "UITextField"; placeholder = "Weight"; ObjectID = "6kF-Yi-OxE"; */
+"6kF-Yi-OxE.placeholder" = "Poids";
+
+/* Class = "UILabel"; text = "Blood Flow Velocity BFV"; ObjectID = "6rd-8U-ORZ"; */
+"6rd-8U-ORZ.text" = "La vitesse du flux sanguin BFV";
+
+/* Class = "UITextField"; placeholder = "Select Gender"; ObjectID = "76Z-UV-cTx"; */
+"76Z-UV-cTx.placeholder" = "Sélectionnez le sexe";
+
+/* Class = "UIButton"; normalTitle = "07:00"; ObjectID = "7Bk-Bw-P60"; */
+"7Bk-Bw-P60.normalTitle" = "07:00";
+
+/* Class = "UIButton"; normalTitle = "TEST"; ObjectID = "7f1-dV-zwe"; */
+"7f1-dV-zwe.normalTitle" = "TESTER";
+
+/* Class = "UILabel"; text = "Abnormality Notice Contacts"; ObjectID = "81H-Tl-Cqz"; */
+"81H-Tl-Cqz.text" = "Contacts Avis d'anomalie";
+
+/* Class = "UILabel"; text = "6:42"; ObjectID = "86Y-Y7-oaP"; */
+"86Y-Y7-oaP.text" = "6:42";
+
+/* Class = "UILabel"; text = "Less than"; ObjectID = "8BK-u8-K5G"; */
+"8BK-u8-K5G.text" = "Moins de";
+
+/* Class = "UILabel"; text = "56 Kgs"; ObjectID = "8Ge-J1-xFr"; */
+"8Ge-J1-xFr.text" = "56 Kgs";
+
+/* Class = "UITextField"; text = "Fasting Blood"; ObjectID = "8YO-gW-Qnd"; */
+"8YO-gW-Qnd.text" = "Glycémie à jeun";
+
+/* Class = "UITextField"; text = "100"; ObjectID = "8bd-Gh-NxQ"; */
+"8bd-Gh-NxQ.text" = "100";
+
+/* Class = "UILabel"; text = "Weight"; ObjectID = "988-Uv-SFW"; */
+"988-Uv-SFW.text" = "Poids";
+
+/* Class = "UILabel"; text = "56 Kgs"; ObjectID = "9Ki-7E-L50"; */
+"9Ki-7E-L50.text" = "56 Kgs";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "9ht-NQ-21k"; */
+"9ht-NQ-21k.normalTitle" = "ENREGISTRER";
+
+/* Class = "UITextField"; text = "400"; ObjectID = "9rl-oS-ESw"; */
+"9rl-oS-ESw.text" = "400";
+
+/* Class = "UILabel"; text = "Peter Robins"; ObjectID = "A6p-Bu-3tW"; */
+"A6p-Bu-3tW.text" = "Peter Robins";
+
+/* Class = "UILabel"; text = "Product Basics"; ObjectID = "AM7-1o-gyy"; */
+"AM7-1o-gyy.text" = "Produits de base";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "AZy-kz-LTy"; */
+"AZy-kz-LTy.normalTitle" = "Fait";
+
+/* Class = "UILabel"; text = "Sulphonylureas"; ObjectID = "AfP-7r-jm7"; */
+"AfP-7r-jm7.text" = "Les sulfamides hypoglycémiants";
+
+/* Class = "UITextField"; placeholder = "Weight"; ObjectID = "Afg-4E-BPt"; */
+"Afg-4E-BPt.placeholder" = "Poids";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "C0V-sh-ggd"; */
+"C0V-sh-ggd.placeholder" = "Mot de passe";
+
+/* Class = "UIButton"; normalTitle = "Show"; ObjectID = "CPc-aZ-1QG"; */
+"CPc-aZ-1QG.normalTitle" = "Afficher";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "Cbx-Ae-oC4"; */
+"Cbx-Ae-oC4.placeholder" = "Nom d'utilisateur";
+
+/* Class = "UILabel"; text = "More than"; ObjectID = "Cnp-JZ-lrP"; */
+"Cnp-JZ-lrP.text" = "Plus de";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "Cwy-s1-hoZ"; */
+"Cwy-s1-hoZ.placeholder" = "Nom d'utilisateur";
+
+/* Class = "UILabel"; text = "Measure Medication"; ObjectID = "DKh-gl-ACX"; */
+"DKh-gl-ACX.text" = "Measure Medication";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "DLR-Jk-vma"; */
+"DLR-Jk-vma.normalTitle" = "ENREGISTRER";
+
+/* Class = "UITextField"; placeholder = "Enter Age"; ObjectID = "De5-w4-oEl"; */
+"De5-w4-oEl.placeholder" = "Entrez l'âge";
+
+/* Class = "UILabel"; text = "More than"; ObjectID = "E98-JH-61Y"; */
+"E98-JH-61Y.text" = "Plus de";
+
+/* Class = "UILabel"; text = "Measure Medication"; ObjectID = "EU5-UD-iXb"; */
+"EU5-UD-iXb.text" = "Measure Medication";
+
+/* Class = "UILabel"; text = "Pulse"; ObjectID = "Ec0-Nw-d70"; */
+"Ec0-Nw-d70.text" = "Pulse";
+
+/* Class = "UILabel"; text = "lb"; ObjectID = "Eza-Ln-oiK"; */
+"Eza-Ln-oiK.text" = "lb";
+
+/* Class = "UILabel"; text = "7:00"; ObjectID = "F6o-Ns-jI9"; */
+"F6o-Ns-jI9.text" = "7:00";
+
+/* Class = "UILabel"; text = "cm"; ObjectID = "Fex-Gn-5dH"; */
+"Fex-Gn-5dH.text" = "cm";
+
+/* Class = "UIButton"; normalTitle = "SEND EMAIL"; ObjectID = "FgM-4w-cda"; */
+"FgM-4w-cda.normalTitle" = "Envoyer un e-mail";
+
+/* Class = "UISegmentedControl"; FiP-lx-vPl.segmentTitles[0] = "Chart"; ObjectID = "FiP-lx-vPl"; */
+"FiP-lx-vPl.segmentTitles[0]" = "Graphique";
+
+/* Class = "UISegmentedControl"; FiP-lx-vPl.segmentTitles[1] = "List"; ObjectID = "FiP-lx-vPl"; */
+"FiP-lx-vPl.segmentTitles[1]" = "Liste";
+
+/* Class = "UITextField"; text = "70"; ObjectID = "Fqp-Ja-JFC"; */
+"Fqp-Ja-JFC.text" = "70";
+
+/* Class = "UILabel"; text = "Fasting Blood"; ObjectID = "FvR-tp-d2f"; */
+"FvR-tp-d2f.text" = "Glycémie à jeun";
+
+/* Class = "UISegmentedControl"; Fvk-kd-bOa.segmentTitles[0] = "Normal"; ObjectID = "Fvk-kd-bOa"; */
+"Fvk-kd-bOa.segmentTitles[0]" = "La normale";
+
+/* Class = "UISegmentedControl"; Fvk-kd-bOa.segmentTitles[1] = "Type2"; ObjectID = "Fvk-kd-bOa"; */
+"Fvk-kd-bOa.segmentTitles[1]" = "≥7";
+
+/* Class = "UILabel"; text = "Less than"; ObjectID = "Fz8-Ob-fLl"; */
+"Fz8-Ob-fLl.text" = "Moins de";
+
+/* Class = "UILabel"; text = "Medical Diagnosis"; ObjectID = "G2E-Wi-gLC"; */
+"G2E-Wi-gLC.text" = "Information sur la santé";
+
+/* Class = "UILabel"; text = "Range: 3.1-17.5 mmol/L"; ObjectID = "GCV-lS-lKK"; */
+"GCV-lS-lKK.text" = "Plage : 3.1-17,5 mmol/L";
+
+/* Class = "UILabel"; text = "Measure Medication"; ObjectID = "GQC-QB-4cD"; */
+"GQC-QB-4cD.text" = "Measure Medication";
+
+/* Class = "UILabel"; text = "Peter Robins"; ObjectID = "GZf-7c-bls"; */
+"GZf-7c-bls.text" = "Peter Robins";
+
+/* Class = "UITextField"; placeholder = "Weight"; ObjectID = "HSO-oM-6zk"; */
+"HSO-oM-6zk.placeholder" = "Poids";
+
+/* Class = "UILabel"; text = "Others"; ObjectID = "Ha7-Yb-35V"; */
+"Ha7-Yb-35V.text" = "Autres";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "HyB-vR-VyZ"; */
+"HyB-vR-VyZ.placeholder" = "Le genre";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "ITa-PZ-nUp"; */
+"ITa-PZ-nUp.normalTitle" = "Fait";
+
+/* Class = "UILabel"; text = ""; ObjectID = "IeH-C8-yLR"; */
+"IeH-C8-yLR.text" = "";
+
+/* Class = "UILabel"; text = "Less than"; ObjectID = "Ikg-pB-Wj9"; */
+"Ikg-pB-Wj9.text" = "Moins de";
+
+/* Class = "UILabel"; text = " Oxygen Saturation SpO2"; ObjectID = "J16-he-ueH"; */
+"J16-he-ueH.text" = "La saturation en oxygène SpO2";
+
+/* Class = "UILabel"; text = "24 Years"; ObjectID = "JAG-Mh-dxM"; */
+"JAG-Mh-dxM.text" = "24 ans";
+
+/* Class = "UIButton"; normalTitle = "TEST"; ObjectID = "JKm-by-Ahe"; */
+"JKm-by-Ahe.normalTitle" = "TESTER";
+
+/* Class = "UILabel"; text = "mmol/L"; ObjectID = "JVm-9r-Ynl"; */
+"JVm-9r-Ynl.text" = "mmol/L";
+
+/* Class = "UITextField"; placeholder = "GLU-AC"; ObjectID = "Jle-XD-uh7"; */
+"Jle-XD-uh7.placeholder" = "GLU-AC";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "JoU-lK-GnF"; */
+"JoU-lK-GnF.normalTitle" = "ENREGISTRER";
+
+/* Class = "UILabel"; text = "Blood Glucose BGL"; ObjectID = "Jtq-Ax-qyJ"; */
+"Jtq-Ax-qyJ.text" = "BGL de glucose de sang";
+
+/* Class = "UIButton"; normalTitle = "Glucose"; ObjectID = "KaC-pb-iZD"; */
+"KaC-pb-iZD.normalTitle" = "Dextrose";
+
+/* Class = "UILabel"; text = "Hemoglobin"; ObjectID = "LEj-93-61B"; */
+"LEj-93-61B.text" = "L'HÉMOGLOBINE";
+
+/* Class = "UILabel"; text = "2 Hours Postparandial"; ObjectID = "LTX-d9-0Gi"; */
+"LTX-d9-0Gi.text" = "2 Hours Postparandial";
+
+/* Class = "UILabel"; text = "2 Hours Postparandial"; ObjectID = "Ld2-gj-I4p"; */
+"Ld2-gj-I4p.text" = "2 heures Postparandial";
+
+/* Class = "UILabel"; text = "Peter Robins"; ObjectID = "Llr-Kf-hre"; */
+"Llr-Kf-hre.text" = "Peter Robins";
+
+/* Class = "UILabel"; text = "Average"; ObjectID = "MX9-D8-WhM"; */
+"MX9-D8-WhM.text" = "La moyenne";
+
+/* Class = "UILabel"; text = "7:00"; ObjectID = "MXG-ex-Lcd"; */
+"MXG-ex-Lcd.text" = "7:00";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MXU-SL-jL2"; */
+"MXU-SL-jL2.text" = "Label";
+
+/* Class = "UILabel"; text = "Glucose( 2 Hours after meal)"; ObjectID = "Mjb-tH-vI0"; */
+"Mjb-tH-vI0.text" = "Dextrose( 2 heures après le repas)";
+
+/* Class = "UILabel"; text = "Less than"; ObjectID = "N9x-lO-1kE"; */
+"N9x-lO-1kE.text" = "Moins de";
+
+/* Class = "UILabel"; text = "Medical Diagnosis"; ObjectID = "NNR-b8-a4Z"; */
+"NNR-b8-a4Z.text" = "Information sur la santé";
+
+/* Class = "UILabel"; text = ""; ObjectID = "NmQ-90-1ST"; */
+"NmQ-90-1ST.text" = "";
+
+/* Class = "UILabel"; text = "No Medication"; ObjectID = "Nqm-9X-daY"; */
+"Nqm-9X-daY.text" = "Aucun médicament";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OLJ-oZ-lxK"; */
+"OLJ-oZ-lxK.text" = "Label";
+
+/* Class = "UILabel"; text = "165 cms"; ObjectID = "OOT-Mc-hp5"; */
+"OOT-Mc-hp5.text" = "165 cms";
+
+/* Class = "UILabel"; text = "2 Hours Postparandial"; ObjectID = "P4l-pn-EgG"; */
+"P4l-pn-EgG.text" = "2 heures Postparandial";
+
+/* Class = "UILabel"; text = "Diabetes type:"; ObjectID = "P9C-Rc-aEx"; */
+"P9C-Rc-aEx.text" = "Sélectionner le type:";
+
+/* Class = "UITextField"; text = "110"; ObjectID = "PYS-Qe-15L"; */
+"PYS-Qe-15L.text" = "110";
+
+/* Class = "UILabel"; text = "More than"; ObjectID = "PaF-gz-3Rx"; */
+"PaF-gz-3Rx.text" = "Plus de";
+
+/* Class = "UILabel"; text = "lb"; ObjectID = "Pkx-iD-wj6"; */
+"Pkx-iD-wj6.text" = "lb";
+
+/* Class = "UILabel"; text = "Physiological Information"; ObjectID = "QMj-Gf-8Vm"; */
+"QMj-Gf-8Vm.text" = "Plus thanPhysiological Informations";
+
+/* Class = "UILabel"; text = "Bluetooth Detection..."; ObjectID = "Qvx-1u-pbh"; */
+"Qvx-1u-pbh.text" = "La détection Bluetooth...";
+
+/* Class = "UILabel"; text = "Power Management"; ObjectID = "RFj-z6-I7F"; */
+"RFj-z6-I7F.text" = "La gestion de l'alimentation";
+
+/* Class = "UILabel"; text = "Morning Fasting"; ObjectID = "Ra7-JY-y7K"; */
+"Ra7-JY-y7K.text" = "Le jeûne du matin";
+
+/* Class = "UILabel"; text = "Sleeping"; ObjectID = "Rk6-jl-ygl"; */
+"Rk6-jl-ygl.text" = "Dormir";
+
+/* Class = "UILabel"; text = "No Medication"; ObjectID = "S8a-5T-Wzh"; */
+"S8a-5T-Wzh.text" = "Aucun médicament";
+
+/* Class = "UILabel"; text = "GUIDE"; ObjectID = "SUc-cF-SHf"; */
+"SUc-cF-SHf.text" = "GUIDER";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "ScW-t3-ZyE"; */
+"ScW-t3-ZyE.normalTitle" = "Fait";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "SdL-Ej-5nY"; */
+"SdL-Ej-5nY.placeholder" = "Mot de passe";
+
+/* Class = "UITextField"; placeholder = "Height"; ObjectID = "SgF-R3-JSu"; */
+"SgF-R3-JSu.placeholder" = "Hauteur";
+
+/* Class = "UILabel"; text = "Physiological Information"; ObjectID = "TEH-8h-qab"; */
+"TEH-8h-qab.text" = "Informations physiologiques";
+
+/* Class = "UILabel"; text = "Hemoglobin HGB"; ObjectID = "TaZ-7B-Jiw"; */
+"TaZ-7B-Jiw.text" = "L'HÉMOGLOBINE HB";
+
+/* Class = "UITextField"; text = "60"; ObjectID = "ThJ-3Y-6ma"; */
+"ThJ-3Y-6ma.text" = "60";
+
+/* Class = "UITextField"; text = "7:00"; ObjectID = "Toj-nd-tmL"; */
+"Toj-nd-tmL.text" = "7:00";
+
+/* Class = "UIButton"; normalTitle = "Pulse"; ObjectID = "TxI-Z0-hNI"; */
+"TxI-Z0-hNI.normalTitle" = "Pulse";
+
+/* Class = "UILabel"; text = "Email2"; ObjectID = "UMg-h9-b6j"; */
+"UMg-h9-b6j.text" = "E-mail2";
+
+/* Class = "UILabel"; text = "Breakfast"; ObjectID = "UYE-2i-Xcv"; */
+"UYE-2i-Xcv.text" = "Le petit-déjeuner";
+
+/* Class = "UILabel"; text = "Range: 3.1-17.5 mmol/L"; ObjectID = "VXa-Ku-iKa"; */
+"VXa-Ku-iKa.text" = "Portée: 3.1-17.5 mmol/L";
+
+/* Class = "UILabel"; text = "56 Kgs"; ObjectID = "XgR-Vw-uqL"; */
+"XgR-Vw-uqL.text" = "56 Kgs";
+
+/* Class = "UILabel"; text = "Glucose"; ObjectID = "Y6H-xS-p5K"; */
+"Y6H-xS-p5K.text" = "Dextrose";
+
+/* Class = "UILabel"; text = "Measure Medication"; ObjectID = "Y8a-cv-Y3e"; */
+"Y8a-cv-Y3e.text" = "Measure Medication";
+
+/* Class = "UILabel"; text = "Hemoglobin HGB"; ObjectID = "Y9H-nN-IkB"; */
+"Y9H-nN-IkB.text" = "L'HÉMOGLOBINE HB";
+
+/* Class = "UILabel"; text = "Range: 12-80"; ObjectID = "Yis-t3-2A8"; */
+"Yis-t3-2A8.text" = "Portée: 12-80";
+
+/* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "YoS-gQ-Irb"; */
+"YoS-gQ-Irb.normalTitle" = "S'IDENTIFIER";
+
+/* Class = "UITextField"; text = "100"; ObjectID = "ZFJ-61-nCe"; */
+"ZFJ-61-nCe.text" = "100";
+
+/* Class = "UILabel"; text = "Range: 50-250 cm"; ObjectID = "ZNZ-cK-enz"; */
+"ZNZ-cK-enz.text" = "Portée: 50 à 250 cm ";
+
+/* Class = "UITextField"; text = "70"; ObjectID = "ZZ9-sr-Foz"; */
+"ZZ9-sr-Foz.text" = "70";
+
+/* Class = "UILabel"; text = "cm"; ObjectID = "ZaQ-jP-31z"; */
+"ZaQ-jP-31z.text" = "cm";
+
+/* Class = "UILabel"; text = "Blood Flow Velocity BFV"; ObjectID = "Znv-Zo-YTn"; */
+"Znv-Zo-YTn.text" = "La vitesse du flux sanguin BFV";
+
+/* Class = "UITextField"; text = "120"; ObjectID = "aGq-Ve-OPw"; */
+"aGq-Ve-OPw.text" = "120";
+
+/* Class = "UILabel"; text = "2016-10-13"; ObjectID = "aNZ-qA-YrO"; */
+"aNZ-qA-YrO.text" = "2016-10-13";
+
+/* Class = "UILabel"; text = "Lowest"; ObjectID = "acC-pc-aab"; */
+"acC-pc-aab.text" = "Plus bas";
+
+/* Class = "UILabel"; text = "More than"; ObjectID = "arc-nt-uJ2"; */
+"arc-nt-uJ2.text" = "Plus de";
+
+/* Class = "UILabel"; text = "24 Years"; ObjectID = "bYM-kk-oRg"; */
+"bYM-kk-oRg.text" = "24 ans";
+
+/* Class = "UILabel"; text = "Sulphonylureas"; ObjectID = "bbG-4Z-jFV"; */
+"bbG-4Z-jFV.text" = "Les sulfamides hypoglycémiants";
+
+/* Class = "UILabel"; text = "SpO2"; ObjectID = "bza-TV-uDc"; */
+"bza-TV-uDc.text" = "La SpO2";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cCs-sJ-taN"; */
+"cCs-sJ-taN.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "cOw-mT-zHL"; */
+"cOw-mT-zHL.normalTitle" = "ENREGISTRER";
+
+/* Class = "UILabel"; text = "Insulin Injection"; ObjectID = "cXz-cv-LAt"; */
+"cXz-cv-LAt.text" = "L'injection d'insuline";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "d1j-7Q-btY"; */
+"d1j-7Q-btY.placeholder" = "Mot de passe";
+
+/* Class = "UILabel"; text = "Measure Medication"; ObjectID = "dTO-uH-n8L"; */
+"dTO-uH-n8L.text" = "Measure Medication";
+
+/* Class = "UILabel"; text = "kg"; ObjectID = "dde-hf-nzF"; */
+"dde-hf-nzF.text" = "kg";
+
+/* Class = "UILabel"; text = "Height"; ObjectID = "e8n-hm-FVo"; */
+"e8n-hm-FVo.text" = "Hauteur";
+
+/* Class = "UILabel"; text = "Biguanides"; ObjectID = "eLZ-TJ-cxz"; */
+"eLZ-TJ-cxz.text" = "Les biguanides";
+
+/* Class = "UILabel"; text = ""; ObjectID = "fFm-J7-BsV"; */
+"fFm-J7-BsV.text" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "fdK-C0-Olg"; */
+"fdK-C0-Olg.normalTitle" = "";
+
+/* Class = "UITextField"; placeholder = "Weight"; ObjectID = "gK0-Bh-ju0"; */
+"gK0-Bh-ju0.placeholder" = "Poids";
+
+/* Class = "UILabel"; text = "More than"; ObjectID = "gml-bH-nuW"; */
+"gml-bH-nuW.text" = "Plus de";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "hDx-Pp-SOF"; */
+"hDx-Pp-SOF.text" = "Email";
+
+/* Class = "UITextField"; placeholder = "GLU-AC"; ObjectID = "hsr-GU-HNn"; */
+"hsr-GU-HNn.placeholder" = "GLU-AC";
+
+/* Class = "UITextField"; placeholder = "GLU-AC"; ObjectID = "ibU-cX-zNC"; */
+"ibU-cX-zNC.placeholder" = "GLU-AC";
+
+/* Class = "UILabel"; text = "inch"; ObjectID = "imw-OO-iPS"; */
+"imw-OO-iPS.text" = "Pouce";
+
+/* Class = "UILabel"; text = "165cms"; ObjectID = "ioO-ZP-Sbi"; */
+"ioO-ZP-Sbi.text" = "165cms";
+
+/* Class = "UIButton"; normalTitle = "Hemoglobin"; ObjectID = "j8h-a9-Amh"; */
+"j8h-a9-Amh.normalTitle" = "L'HÉMOGLOBINE";
+
+/* Class = "UILabel"; text = "Morning fasting"; ObjectID = "jX6-Zl-Jbk"; */
+"jX6-Zl-Jbk.text" = "Le jeûne du matin";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "jp4-0F-6Za"; */
+"jp4-0F-6Za.normalTitle" = "Forgot Password?";
+
+/* Class = "UILabel"; text = "Range: 30-200 kgs"; ObjectID = "kE5-Tb-zCf"; */
+"kE5-Tb-zCf.text" = "Portée : 30 à 200 kg";
+
+/* Class = "UILabel"; text = "Measure Medication"; ObjectID = "l2S-74-Ev2"; */
+"l2S-74-Ev2.text" = "Measure Medication";
+
+/* Class = "UILabel"; text = ""; ObjectID = "lFg-jQ-pCi"; */
+"lFg-jQ-pCi.text" = "";
+
+/* Class = "UITextField"; placeholder = "Height"; ObjectID = "lMb-t5-7De"; */
+"lMb-t5-7De.placeholder" = "Hauteur";
+
+/* Class = "UILabel"; text = "48"; ObjectID = "mEe-FM-gX2"; */
+"mEe-FM-gX2.text" = "48";
+
+/* Class = "UILabel"; text = ""; ObjectID = "ma1-qW-lv6"; */
+"ma1-qW-lv6.text" = "";
+
+/* Class = "UILabel"; text = "165 cms"; ObjectID = "n7p-e5-WQ1"; */
+"n7p-e5-WQ1.text" = "165 cms";
+
+/* Class = "UILabel"; text = "Morning Fasting"; ObjectID = "nli-fK-Bg9"; */
+"nli-fK-Bg9.text" = "Le jeûne du matin";
+
+/* Class = "UILabel"; text = "TEST"; ObjectID = "nng-VZ-VTu"; */
+"nng-VZ-VTu.text" = "TESTER";
+
+/* Class = "UILabel"; text = "12:00"; ObjectID = "nou-eB-YWN"; */
+"nou-eB-YWN.text" = "12:00";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "o28-JA-7DO"; */
+"o28-JA-7DO.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "CREATE"; ObjectID = "ofG-Tn-E6x"; */
+"ofG-Tn-E6x.normalTitle" = "CRÉER";
+
+/* Class = "UILabel"; text = "Battery Power (%)"; ObjectID = "p7i-si-hK5"; */
+"p7i-si-hK5.text" = "L'énergie de la batterie ( %)";
+
+/* Class = "UILabel"; text = "mg/dL"; ObjectID = "pUN-fp-25V"; */
+"pUN-fp-25V.text" = "mg/dL";
+
+/* Class = "UILabel"; text = "Less than"; ObjectID = "pVR-Od-mnD"; */
+"pVR-Od-mnD.text" = "Moins de";
+
+/* Class = "UIButton"; normalTitle = "TEST"; ObjectID = "pt5-WA-fXU"; */
+"pt5-WA-fXU.normalTitle" = "TESTER";
+
+/* Class = "UILabel"; text = "mmol/L"; ObjectID = "q8o-a5-NTM"; */
+"q8o-a5-NTM.text" = "mmol/L";
+
+/* Class = "UILabel"; text = "Lunch"; ObjectID = "qzg-9T-ZOj"; */
+"qzg-9T-ZOj.text" = "Le déjeuner";
+
+/* Class = "UILabel"; text = "24 Years"; ObjectID = "rDy-hx-LSG"; */
+"rDy-hx-LSG.text" = "24 ans";
+
+/* Class = "UILabel"; text = "Highest"; ObjectID = "rJa-XK-uP8"; */
+"rJa-XK-uP8.text" = "Plus haut";
+
+/* Class = "UILabel"; text = "mg/dL"; ObjectID = "ru1-C8-XQL"; */
+"ru1-C8-XQL.text" = "mg/dL";
+
+/* Class = "UITextField"; text = "220"; ObjectID = "s0T-xn-B1c"; */
+"s0T-xn-B1c.text" = "220";
+
+/* Class = "UISegmentedControl"; tN6-wE-y0d.segmentTitles[0] = "Normal"; ObjectID = "tN6-wE-y0d"; */
+"tN6-wE-y0d.segmentTitles[0]" = "La normale";
+
+/* Class = "UISegmentedControl"; tN6-wE-y0d.segmentTitles[1] = "Type2"; ObjectID = "tN6-wE-y0d"; */
+"tN6-wE-y0d.segmentTitles[1]" = "≥7";
+
+/* Class = "UITextField"; text = "165"; ObjectID = "u8W-K8-mZu"; */
+"u8W-K8-mZu.text" = "165";
+
+/* Class = "UILabel"; text = "a-Glucosedases"; ObjectID = "uFz-H7-fy6"; */
+"uFz-H7-fy6.text" = "a-Glucosedases";
+
+/* Class = "UITextField"; text = "140"; ObjectID = "uu8-yj-ArY"; */
+"uu8-yj-ArY.text" = "140";
+
+/* Class = "UILabel"; text = "HISTORY"; ObjectID = "v1Q-Vf-h2w"; */
+"v1Q-Vf-h2w.text" = "HISTOIRE";
+
+/* Class = "UILabel"; text = "More than"; ObjectID = "vZn-bX-CH7"; */
+"vZn-bX-CH7.text" = "Plus de";
+
+/* Class = "UILabel"; text = "Less than"; ObjectID = "vym-GI-yXZ"; */
+"vym-GI-yXZ.text" = "Moins de";
+
+/* Class = "UILabel"; text = "Dinner"; ObjectID = "w0e-XT-IKI"; */
+"w0e-XT-IKI.text" = "Le dîner";
+
+/* Class = "UILabel"; text = "Biguanides"; ObjectID = "wAQ-ZO-2r7"; */
+"wAQ-ZO-2r7.text" = "Les biguanides";
+
+/* Class = "UILabel"; text = "Range: 50-250 cms"; ObjectID = "wvm-28-18d"; */
+"wvm-28-18d.text" = "Portée: 50 à 250 cm";
+
+/* Class = "UILabel"; text = "Remind"; ObjectID = "xC2-wP-2Sf"; */
+"xC2-wP-2Sf.text" = "Rappeler aux";
+
+/* Class = "UITextField"; placeholder = "Height"; ObjectID = "xD0-Sp-2ih"; */
+"xD0-Sp-2ih.placeholder" = "Hauteur";
+
+/* Class = "UILabel"; text = "10:00"; ObjectID = "xa4-ws-cq4"; */
+"xa4-ws-cq4.text" = "10:00";
+
+/* Class = "UITextField"; placeholder = "Age"; ObjectID = "xeF-9b-uaB"; */
+"xeF-9b-uaB.placeholder" = "Age";
+
+/* Class = "UILabel"; text = "8:00"; ObjectID = "yaf-ti-oUs"; */
+"yaf-ti-oUs.text" = "8:00";
+
+/* Class = "UILabel"; text = "SETTINGS"; ObjectID = "yiA-W6-cxo"; */
+"yiA-W6-cxo.text" = "PARAMÈTRES";
+
+/* Class = "UITextField"; placeholder = "GLU-AC"; ObjectID = "yvl-gX-M8C"; */
+"yvl-gX-M8C.placeholder" = "GLU-AC";
+
+/* Class = "UITextField"; placeholder = "Height"; ObjectID = "zH9-M6-XWh"; */
+"zH9-M6-XWh.placeholder" = "Hauteur";
+
+/* Class = "UILabel"; text = "a-Glucosedases"; ObjectID = "zTF-kX-8b8"; */
+"zTF-kX-8b8.text" = "a-Glucosedases";
+
+/* Class = "UILabel"; text = "Range: 12-80"; ObjectID = "zWF-ev-bWY"; */
+"zWF-ev-bWY.text" = "Portée : 12 à 80";
+
+/* Class = "UILabel"; text = "Notices"; ObjectID = "zcd-G0-G7w"; */
+"zcd-G0-G7w.text" = "Avis";

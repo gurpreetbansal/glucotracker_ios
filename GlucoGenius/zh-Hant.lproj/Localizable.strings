@@ -1,0 +1,317 @@
+/*
+ Localizable.strings
+ Vigori Diary
+ 
+ Created by i mark on 10/11/16.
+ Copyright © 2016 i mark. All rights reserved.
+ */
+
+// Traditiona Chinese
+
+//Common
+
+mmol_LUnitText = "mmol/L";
+mg_dLUnitText = "mg/dL";
+inchUnitText = "inch";
+cmUnitText = "CM";
+unitAText = "單位A";
+unitBtext = "單位B";
+dextroseText = "葡萄糖";
+
+kgUnitText = "Kg";
+lbUnitText = "lb";
+
+g_LUnitText = "g/L";
+g_dLUnitText = "g/dL";
+
+successtext = "成功!";
+oopsText = "哦哦!";
+errorText = "錯誤!";
+alertText = "注意!";
+okText = "Ok";
+cancelText = "取消";
+messageText = "訊息!";
+timePerMinUnitText = "time/min";
+auUnitText = "AU";
+yearsText = "歲";
+hideText = "隱藏";
+
+datesText = "日期";
+timeText = "時間";
+SpO2Text = "SpO2";
+
+resultText = "結果";
+dietText = "飲食";
+deleteText = "刪除";
+
+measureText = "測量";
+signUPBtnText1 = "沒有帳戶？";
+signUPBtnText2 = "註冊";
+
+signUpVC.loginBtnText1 = "已經有帳戶？";
+signUpVC.loginBtnText2 = "登錄";
+
+helloText = "你好";
+bloodGlucoseText = "血糖";
+oxygenSaturationText = "血氧飽合度";
+hemoglobinText = "血紅蛋白";
+bloodFlowVelocityText = "血流速度";
+pulseText = "脈搏";
+yourRecentMeasurementAt = "您最近的測量";
+reminderText = "提醒";
+
+//Test Result
+
+testResultVC.title = "量測結果";
+testResultVC.envrTempCode = "ET";
+testResultVC.envrHumiCode = "EH";
+testResultVC.surfTempCode = "ST";
+testResultVC.surfHumiCode = "SH";
+
+testResultVC.mailMessage = "用戶健康報告：";
+testResultVC.atText = "在";
+testResultVC.titleNotice = "代謝交換數值僅供參考並非診斷數據";
+unitNoteMessage = "*單位A代表mmol/L\n*單位B代表mg/dL";
+
+//MealSize selection Screen
+
+mealSizeVC.CarbohydrateText = "碳水化合物攝取量";
+mealSizeVC.noticeText = "*合適的攝取量以一份為限 (約為拳頭大小)";
+mealSizeVC.smallText = "少";
+mealSizeVC.mediumText = "中";
+mealSizeVC.largeText = "多";
+mealSizeVC.nextText = "下一步";
+
+//Health reference Screen
+
+healthReferenceVC.title = "健康參考資訊";
+menu.HealthRefText = "* 健康參考資訊 *";
+
+//Bluetooth connectivity Screen
+
+btConnVC.firstTitle = "量測";
+btConnVC.secondTitle = "測試";
+btConnVC.alert.timeOut = "超時!";
+btConnVC.lblProcessingText = "請放鬆並保持相同姿勢";
+
+btConnVC.lblInst1.text = "*請等待提示再伸入手指";
+btConnVC.lblInst2.text = "*最佳測試溫度20ﾟC - 27ﾟC ";
+btConnVC.lblInst3.text = "*合適的手指溫度29ﾟC – 35ﾟC";
+
+btConnVC.alert.resetDevice = "使用前請重開設備!";
+btConnVC.alert.LessThan3mins = "間隔少於5分鐘, 請稍後再試!";
+btConnVC.alert.DeviceNotFound = "未找到設備";
+
+btConnVC.alert.deviceNotResponding = "設備沒有回應, 請重開再試一次, 謝謝!";
+btConnVC.alert.envrTempLow = "環境溫度太低,可能會影響測試結果, 謝謝!";
+btConnVC.alert.batteryLow = "設備電源低。請在測試前充電。";
+
+btConnVC.alert.envrTempHigh = "環境溫度太高,可能會影響測試結果, 謝謝!";
+btConnVC.alert.envrTempDry = "環境太乾燥,可能會影響測試結果, 謝謝!";
+btConnVC.alert.envrHumid = "環境溼度太高, 可能會影響測試結果, 謝謝!";
+
+btConnVC.alert.probeNotInserted = "手指未伸入!";
+btConnVC.alert.fingerNotInsertedProperly = "手指未正確伸入!";
+btConnVC.alert.wrongDataCollection = "測試資料有誤, 請重新測試並輕放手指勿下壓";
+btConnVC.alert.probeNotInsertedProperly = "感測有誤，請再試一次，謝謝！";
+//"插入手指時，請放鬆，不要按下發件人。請重試，謝謝！";
+
+btConnVC.alert.checkSensors = "請檢查感測器";
+btConnVC.alert.incorectTestResult = "測試數值不正確, 請重新測試, 將手指伸到底並放輕鬆,勿下壓感測器";
+
+btConnVC.alert.insertProbe = "請將手指伸入指夾感測器";
+btConnVC.alert.compliantEnvr = "符合環境條件";
+btConnVC.alert.btDetectionfail = "藍牙偵測失敗";
+btConnVC.alert.return = "回主頁...";
+btConnVC.alert.btDetection = "藍牙偵測...";
+btConnVC.alert.deviceDiscoonected = "設備未連結!";
+
+btConnVC.alert.probeInserted = "手指已伸入";
+btConnVC.alert.probeRemoved = "手指已移開!";
+btConnVC.alert.fingerTempLow = "手指溫度太低, 可能會影響測試結果";
+btConnVC.alert.fingerTempHigh = "手指溫度太高, 可能會影響測試結果";
+
+//Bluetooth devices Screen
+
+btDevicesVC.title = "藍牙搜索";
+btDevicesVC.alert.deviceConnected = "設備已配對";
+btDevicesVC.headerText = "可配對設備";
+
+//Login Screen
+
+loginVC.alert.userNotExist = "無此用戶!";
+loginVC.alert.enterUsernamePwd = "請輸入帳號及密碼登入!";
+
+
+//SignUp Screen // Edit user
+
+signUpVC.TextMale = "男性";
+signUpVC.TextFemale = "女性";
+signUpVC.alert.userExists = "此用戶已存在!";
+signUpVC.alert.heightInCmIncorrect = "身高範圍: 50-250公分";
+signUpVC.alert.weightInKgIncorrect = "體重範圍: 30-200公斤";
+signUpVC.alert.heightInInchIncorrect = "身高範圍: 19.7-98.4吋";
+signUpVC.alert.weightInLbIncorrect = "體重範圍: 66.19-440.9磅";
+//signUpVC.alert.MorningFastingAlert = "*未進食8小時以上 \n* 請至少每週更新一次";
+signUpVC.alert.MorningFastingAlert = "*未進食8小時以上 \n* 請每週校準清晨空腹值1次";
+
+signUpVC.alert.glucInMmolIncorrect = "葡萄糖值必須在範圍3.1-17.5 mmol/L內";//"血糖值範圍: 3.1-17.5 mmol/L";
+signUpVC.alert.glucInMgIncorrect = "葡萄糖值必須在範圍55.86-315.3 mg/dL內";//"血糖值範圍: 55.86-315.3 mg/dL";
+
+signUpVC.alert.fillAllData = "所有欄位皆需填寫!";
+signUpVC.alert.ageIncorrect = "年齡應大於12歲";
+
+
+editProfile.title = "編輯個人資料";
+//Home Screen
+
+homeVC.alert.logOutAlert = "確定要離開?";
+homeVC.title = "主頁";
+
+//Normal user //Type2 User
+
+normalUserTestVC.alert.chooseMeal = "請先選擇用餐狀態!";
+normalUserTestVC.title = "量測";
+type2UserTestVc.morningFastingAlert = "*未進食8小時以上 \n* 設定為[正常]";
+
+//Unit Settings screen
+
+unitSettingVC.title = "單位設定";
+
+//Guide screen
+
+guideVC.title = "用戶指南";
+
+
+//History screen
+
+historyVC.title = "歷史記錄";
+
+historyVC.alert.noRecord = "沒有資料";
+
+historyVC.dayText = "日";
+historyVC.weekText = "週";
+historyVC.monthText = "月";
+historyVC.periodText = "區間";
+
+historyVC.mailSubject = "健康提醒";
+historyVC.mailMessage = "宇朔健康數位科技有限公司";
+historyVC.alertTitle.mailNotSend = "無法寄出電郵";
+historyVC.alert.mailNotSend = "設備無法寄出電郵, 請確認電郵設定或開啓網路功能";
+
+historyVC.fileName = "歷史記錄資料";
+historyVC.wrongPeriodDateSelectionAlertMessagse = "開始日期大於結束日期，請選擇正確的時間段";
+
+//Health Reminder screen
+
+healthReminderScreen.title = "保健提醍";
+
+healthReminderVC.heading1 = "空腹";
+healthReminderVC.heading2 = "早餐";
+healthReminderVC.heading3 = "午餐";
+healthReminderVC.heading4 = "晚餐";
+healthReminderVC.heading5 = "睡眠";
+healthReminderVC.heading6 = "其他";
+//Start test screen VC
+
+startTestVC.title = "量測";
+startTestVC.lblInstText = "放輕鬆! \n 勿重壓感測器";
+
+//Measurement Settings screen
+
+measurementSettingsVC.title = "量測設定";
+measurementSettingsVC.alert.incorrectValues = "請輸入正確數值";
+measurementSettingsVC.alert.IncompleteData = "請填寫所有數值!";
+measurementSettingsVC.alert.changeSettings = "量測設定即將變更!";
+measurementSettingsVC.reportName = "保健提醒";
+
+//Select user
+
+selectUserVC.title = "選擇用戶";
+
+//User instruction screen // Power mgmt screen
+
+userInstVC.title = "使用說明";
+powerMgmtVC.title = "電量管理";
+
+userInstVC.lblContent = "優活日記 – 取得多項健康數值的好幫手。\n\n採用此無創工具，在量測過程中不會有任何不適。有助您一天多次量測來監控自己的健康。\n\n經過無數的實驗研究及先進的感測器技術整合, 優活日記實現透過非侵入方式獲得多項健康數值的功能。";
+
+powerMgmtVC.lblContent = "1)按壓電源鍵開機。 \n\n2)若三分鐘未使用，產品會自動關機。\n\n3)測試完畢，請按壓電源鍵約3秒關機。\n\n4)充電時，不可進行量測。\n\n5)建議電力低於30%時，請先充飽電再進行量測。";
+
+//Notices Screen
+noticeVC.title = "注意";
+
+//product basics Screen
+
+productBasics.title = "產品說明";
+
+//Edit Reminder Screen
+
+editReminder.title = "修改提醒";
+editReminder.alert.saveChanges = "要儲存修改嗎?";
+
+// Manage Accounts screen
+
+manageAccounts.title = "管理帳戶";
+manageAccounts.noUserFoundAlert = "找不到用戶";
+manageAccounts.deleteAccAlert = "您確定要刪除所選帳戶嗎？";
+manageAccounts.accDeletedAlert = "帳戶已成功刪除!";
+manageAccounts.noAccToDeleteAlert = "請選擇要刪除的帳戶";
+
+//Measurement Record
+
+measurementRecord.title = "量測記錄";
+measurementRecord.2HrAfterMealText = "飯後二小時";
+measurementRecord.mrngFasting = "清晨空腹";
+
+measurementRecord.medicationText = "服藥";
+measurementRecord.noMedicationText = "未服藥";
+measurementRecord.alert.deleteRecord = "確定要刪除記錄?";
+
+//Sidebar Menu
+
+menu.bluetoothText = "藍牙";
+menu.editUserText = "編輯用戶";
+menu.unitSettingsText = "單位設定";
+menu.reminderSettingsText = "提醒設定";
+menu.measurementRecordsText = "量測記錄";
+menu.switchUserText = "切換用戶";
+menu.signOutText = "登出";
+menu.manageAccountsText = "管理帳戶";
+
+//notifications
+
+notificationText = "您的健康提醒設置為";
+
+notificationText2 = "您的藥物提醒設置為";
+notificationText3 = "您的測量提醒設置為";
+notificationText4 = "您的測量和藥物提醒設置為";
+
+reminderAlert = "您的健康提醒已設置為當前時間！";
+reminderAlert2 = "請提醒測量和藥物治療";
+reminderAlert3 = "請提醒一下藥物";
+reminderAlert4 = "請提醒測量";
+
+// Bluetooth connectivity screen
+
+BtConnVC.remainingTimeText = "剩餘時間: ";
+
+BtConnVC.testing.screen1Text = "定期健康檢查";
+
+BtConnVC.testing.screen2Text = "每天運動30分鐘";
+
+BtConnVC.testing.screen3Text = "從事抒壓活動，讓自己多放鬆";
+
+BtConnVC.testing.screen4Text = "正確飲食 \n 依照下列飲食順序和份量 \n 2份高纖蔬菜 \n 2份蛋白質 \n 1份碳水化合物";
+
+BtConnVC.testing.screen5Text = "維持充足的睡眠";
+
+BtConnVC.testing.screen6Text = "補充水份";
+
+HealthReport.Content = "<Br />血紅蛋白信息：<Br /> <Br /> 1.血紅蛋白值低：在女性中更常見，也常稱為貧血。 <Br /> 2.在頭暈，疲勞，焦慮症或血便等症狀時，建議前往醫院進一步檢查。 <Br /> 3.建議消耗更多富含鐵和富含蛋白質的食物，以及維生素C，有助於吸收鐵。 <Br /> 4.血紅蛋白值高：血液集中，更難流動。建議去醫院進一步檢查。 <Br /> <Br />血糖信息：<Br /> <Br />當BGL值太低或太高時，<Br /> 1.首先檢查智能傳感器是否在合適的測試條件下使用<Br /> 2.血液葡萄糖不應低於100mg / dL，建議通過吃糖果和曲奇餅補充身體糖，以避免低血糖。 <Br /> 3.血葡萄糖不應超過300mg / dL，確保沒有出現頭暈或嘔吐等症狀。喝大量的水，一個小時後再次測試。 <Br /> 4.如果血糖高於300 mg / dL，建議前往醫院進行進一步檢查。<Br /> <Br />脈搏信息：<Br /> <Br />當脈搏值低或高，<Br /> 1.脈搏值低：低於60bpm，通常在房室傳導阻滯或顱內壓增加。 <Br /> 2.脈搏值高：超過100bpm，常見於發燒，貧血或冠心病。<Br /> 3.通常伴有其他身體症狀，建議去醫院進一步檢查。<Br /> <Br />血流速度信息：<Br /> <Br /> 1.BFV值表示為通過血管的一部分流動的單位時間，也稱為“體積速率”。<Br /> 2.動脈血流受收縮和舒張心跳的影響。收縮心跳加速血流量，舒張心搏減慢血流量。<Br />3.當血管彈性時，血流量較慢;當血管變成填充物時，血流將顯著更快<br /> 4.我們可以使用從這個測試中獲得的值來比較相似年齡的人的血流量，因此推斷人的血管是否比實際人的年齡快。 <Br /> <Br />如何保持你的血管彈性：<Br /> <Br /> 1.保持持續運動<Br /> 2.維持平衡的營養攝入，如蛋白質和維生素<Br /> 3調節三個高點：血糖，血壓和血脂<Br /> 4.每天收集足夠的水以減少血管粘滯。<Br /> <Br />血氧飽和度（SpO2）信息：<Br /> <Br /> 1.小於94％：缺氧。<br /> 2.低於90％：低氧血症。 <Br /> 3.如果SpO2低於90％，並表現出胸悶，疲勞和呼吸困難的症狀，建議前往醫院檢查。";
+
+// Starting Screen
+title = "充滿生命力的一天\n從自我健康監測開始。";
+popupTitle = "Gluco Tracker 使用注意事項";
+popupDesc = "這些監視數據僅用於監視您的日常狀態，不能代替醫生的就診，諮詢，診斷或推薦的治療方法。如果健康管理數字異常，請立即去醫院進行專業檢測。";
+acceptBtnText = "接受";

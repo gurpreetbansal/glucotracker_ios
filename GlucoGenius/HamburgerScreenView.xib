@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="nYk-Vi-2tK" customClass="HamburgerScreenView" customModule="Vigori_Diary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ohn-zo-XFX">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ol0-WW-3EQ">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="L2f-xW-Pry">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <color key="backgroundColor" red="0.66666666669999997" green="0.4823529412" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ol0-WW-3EQ" secondAttribute="bottom" id="6fn-xD-73n"/>
+                        <constraint firstItem="ol0-WW-3EQ" firstAttribute="top" secondItem="Ohn-zo-XFX" secondAttribute="top" id="6rU-Ip-Kp3"/>
+                        <constraint firstItem="L2f-xW-Pry" firstAttribute="top" secondItem="Ohn-zo-XFX" secondAttribute="top" id="XqX-eA-hfm"/>
+                        <constraint firstAttribute="bottom" secondItem="L2f-xW-Pry" secondAttribute="bottom" id="ZDz-ZL-3Po"/>
+                        <constraint firstAttribute="bottom" secondItem="L2f-xW-Pry" secondAttribute="bottom" id="a0V-jP-SMT"/>
+                        <constraint firstAttribute="trailing" secondItem="L2f-xW-Pry" secondAttribute="trailing" id="hnR-H9-BUS"/>
+                        <constraint firstItem="ol0-WW-3EQ" firstAttribute="leading" secondItem="Ohn-zo-XFX" secondAttribute="leading" id="mYt-f5-Vyh"/>
+                        <constraint firstItem="L2f-xW-Pry" firstAttribute="leading" secondItem="Ohn-zo-XFX" secondAttribute="leading" id="pb3-3B-X0k"/>
+                        <constraint firstAttribute="trailing" secondItem="ol0-WW-3EQ" secondAttribute="trailing" id="tyc-Ro-XxD"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="a0V-jP-SMT"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ohn-zo-XFX" firstAttribute="leading" secondItem="nYk-Vi-2tK" secondAttribute="leading" id="8bU-B9-UCS"/>
+                <constraint firstItem="Ohn-zo-XFX" firstAttribute="top" secondItem="nYk-Vi-2tK" secondAttribute="top" id="Ko6-fD-RpP"/>
+                <constraint firstAttribute="trailing" secondItem="Ohn-zo-XFX" secondAttribute="trailing" id="M3u-LH-nt2"/>
+                <constraint firstAttribute="bottom" secondItem="Ohn-zo-XFX" secondAttribute="bottom" id="VAg-aL-uKG"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="hamburgerTableView" destination="L2f-xW-Pry" id="Wao-vQ-k9P"/>
+            </connections>
+            <point key="canvasLocation" x="434" y="361"/>
+        </view>
+    </objects>
+</document>

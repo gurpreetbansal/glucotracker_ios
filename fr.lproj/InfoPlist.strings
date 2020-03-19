@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Vigori Diary
+
+  Created by i mark on 28/11/16.
+  Copyright © 2016 i mark. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "GlucoTracker";
+"CFBundleDevelopmentRegion" = "en";

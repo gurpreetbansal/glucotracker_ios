@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="ufonts.com_gotham-book_0.ttf">
+            <string>GothamBook</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HamburgerTableViewCustomCellIdentifier" id="KGk-i7-Jjw" customClass="HamburgerTableViewCustomCellTableViewCell" customModule="Vigori_Diary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="QDH-3R-E3S" customClass="UILabelCustomClass" customModule="Vigori_Diary" customModuleProvider="target">
+                        <rect key="frame" x="10" y="0.0" width="310" height="43"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="GothamBook" family="Gotham Book" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4FQ-Kn-tb5">
+                        <rect key="frame" x="10" y="42" width="310" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="HxP-KJ-sRW"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RKW-mV-Tng">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                        <connections>
+                            <action selector="cellBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="v1f-w0-EUU"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.66666666669999997" green="0.4823529412" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="4FQ-Kn-tb5" secondAttribute="bottom" id="5Q2-Ku-Z0b"/>
+                    <constraint firstItem="QDH-3R-E3S" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="7lx-rU-zne"/>
+                    <constraint firstAttribute="trailing" secondItem="RKW-mV-Tng" secondAttribute="trailing" id="8g3-qa-ejX"/>
+                    <constraint firstItem="QDH-3R-E3S" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Dns-gV-jub"/>
+                    <constraint firstItem="4FQ-Kn-tb5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="L0Y-dU-DWq"/>
+                    <constraint firstAttribute="trailing" secondItem="QDH-3R-E3S" secondAttribute="trailing" id="Ndd-xw-NA0"/>
+                    <constraint firstItem="RKW-mV-Tng" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Xig-FT-LXU"/>
+                    <constraint firstAttribute="bottom" secondItem="QDH-3R-E3S" secondAttribute="bottom" id="eSr-ki-7Ob"/>
+                    <constraint firstItem="RKW-mV-Tng" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="goe-1e-WdX"/>
+                    <constraint firstItem="QDH-3R-E3S" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="i80-02-1tw"/>
+                    <constraint firstAttribute="bottom" secondItem="RKW-mV-Tng" secondAttribute="bottom" id="rE2-I6-np8"/>
+                    <constraint firstAttribute="trailing" secondItem="4FQ-Kn-tb5" secondAttribute="trailing" id="x3j-eX-OIv"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="i80-02-1tw"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellLbl" destination="QDH-3R-E3S" id="hI7-kk-xM3"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="288"/>
+        </tableViewCell>
+    </objects>
+</document>

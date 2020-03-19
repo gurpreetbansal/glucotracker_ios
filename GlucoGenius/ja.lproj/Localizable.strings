@@ -1,0 +1,322 @@
+/*
+ Localizable.strings
+ Vigori Diary
+ 
+ Created by i mark on 10/11/16.
+ Copyright © 2016 i mark. All rights reserved.
+ */
+// Japanese
+
+
+//Common
+
+mmol_LUnitText = "mmol/L";
+mg_dLUnitText = "mg/dL";
+inchUnitText = "inch";
+cmUnitText = "CM";
+unitAText = "単位A";
+unitBtext = "単位B";
+dextroseText = "デキストロース";
+
+kgUnitText = "Kg";
+lbUnitText = "lb";
+
+g_LUnitText = "g/L";
+g_dLUnitText = "g/dL";
+
+successtext = "成功!";
+oopsText = "おっとっと!";
+errorText = "エラー!";
+alertText = "アラート!";
+okText = "はい";
+cancelText = "キャンセル";
+messageText = "メッセージ!";
+timePerMinUnitText = "time/min";
+auUnitText = "AU";
+yearsText = "歳";
+hideText = "隠す";
+measureText = "測定";
+
+datesText = "日付";
+timeText = "時間";
+SpO2Text = "SpO2";
+
+signUPBtnText1 = "アカウントを持っていないのですか？";
+signUPBtnText2 = "サインアップ";
+
+signUpVC.loginBtnText1 = "すでにアカウントをお持ちですか？";
+signUpVC.loginBtnText2 = "ログイン";
+
+helloText = "こんにちは";
+bloodGlucoseText = "グルコース";
+oxygenSaturationText = "酸素飽和度";
+hemoglobinText = "ヘモグロビン";
+bloodFlowVelocityText = "血流速度";
+pulseText = "パルス";
+yourRecentMeasurementAt = "あなたの最近の測定値";
+
+resultText = "結果";
+dietText = "ダイエット";
+deleteText = "削除";
+
+reminderText = "リマインダ";
+
+//Test Result
+
+testResultVC.title = "テスト結果";
+testResultVC.envrTempCode = "ET";
+testResultVC.envrHumiCode = "EH";
+testResultVC.surfTempCode = "ST";
+testResultVC.surfHumiCode = "SH";
+testResultVC.mailMessage = "ユーザーの健康状態報告:";
+testResultVC.atText = "で";
+testResultVC.titleNotice = "代謝交換値は参考値であり、診断データではありません。";
+unitNoteMessage = "*単位Aはmmol/L\n*単位Bはmg/dL";
+
+//Health reference Screen
+
+healthReferenceVC.title = "健康リファレンス";
+menu.HealthRefText = "* 健康リファレンス *";
+
+//MealSize selection Screen
+
+mealSizeVC.CarbohydrateText = "炭水化物摂取量";
+mealSizeVC.noticeText = "*適切な炭水化物の摂取量は、拳のように1部の大きさです。";
+mealSizeVC.smallText = "少量";
+mealSizeVC.mediumText = "適度な";
+mealSizeVC.largeText = "たくさんの";
+mealSizeVC.nextText = "次の";
+
+//Bluetooth connectivity Screen
+
+btConnVC.firstTitle = "計測";
+btConnVC.secondTitle = "計測";
+btConnVC.alert.timeOut = "タイムアウト!";
+btConnVC.lblProcessingText = "落ち着いてください。\n 現在の姿勢";
+
+btConnVC.lblInst1.text = "*指示を待つ前に \n 指を挿入する";
+btConnVC.lblInst2.text = "*推奨周囲温度 \n 20℃〜27℃";
+btConnVC.lblInst3.text = "*適切な指の温度29ﾟC – 35ﾟC";
+
+btConnVC.alert.resetDevice = "使用前にデバイスをリセットしてください！";
+btConnVC.alert.LessThan3mins = "5分未満、後で試してください";
+btConnVC.alert.DeviceNotFound = "デバイスが見つかりません";
+
+btConnVC.alert.deviceNotResponding = "デバイスがテストで応答していません。デバイスをリセットしてもう一度お試しください！";
+btConnVC.alert.envrTempLow = "周辺温度が低すぎます、これは結果に影響します。";
+//"周辺温度が低すぎます、テスト結果に影響する場合があります。";
+btConnVC.alert.batteryLow = "デバイスの電力が低いです。テストの前に請求してください。";
+
+btConnVC.alert.envrTempHigh = "環境温度が高すぎてテストできませんでした。これは結果に影響します。";//"周辺温度が高すぎます、テスト結果に影響する場合があります。";
+btConnVC.alert.envrTempDry = "環境がテストのために乾燥しすぎているので、これは結果に影響します。";
+btConnVC.alert.envrHumid = "環境湿度が高すぎるため、これは結果に影響します。";
+
+btConnVC.alert.probeNotInserted = "指が挿入されていません!";
+btConnVC.alert.fingerNotInsertedProperly = "指が正しく挿入されていない！";
+btConnVC.alert.wrongDataCollection = "間違ったデータ収集、センサーが十分なデータを取得できませんでした。";
+btConnVC.alert.probeNotInsertedProperly = "誤ったデータ収集です。もう一度お試しください。 ありがとうございました！";
+btConnVC.alert.checkSensors = "センサーのチェック";
+btConnVC.alert.incorectTestResult = "テスト結果が正しくありません。指を正しく挿入してください";
+
+btConnVC.alert.insertProbe = "指をクリップセンサー内に挿入してください";
+btConnVC.alert.compliantEnvr = "環境への適合 \n 調子";
+btConnVC.alert.btDetectionfail = "ブルートゥース検出に失敗しました";
+btConnVC.alert.return = "リターン...";
+btConnVC.alert.btDetection = "BlueTooth 検索中...";
+btConnVC.alert.deviceDiscoonected = "デバイスが接続されていません！";
+
+btConnVC.alert.probeInserted = "指が挿入された";
+btConnVC.alert.probeRemoved = "指が削除されました！";
+btConnVC.alert.fingerTempLow = "指の温度が低すぎます。これは結果に影響します。";
+btConnVC.alert.fingerTempHigh = "指の温度が高すぎます。これは結果に影響します。";
+
+//Bluetooth devices Screen
+
+btDevicesVC.title = "BlueTooth 検索中";
+btDevicesVC.alert.deviceConnected = "デバイス接続";
+btDevicesVC.headerText = "使用可能なデバイス";
+
+//Login Screen
+
+loginVC.alert.userNotExist = "ユーザーは存在しません";
+loginVC.alert.enterUsernamePwd = "ログインユーザー名とパスワードを入力してください";
+
+
+//SignUp Screen // Edit user
+
+signUpVC.TextMale = "男性";
+signUpVC.TextFemale = "女性";
+signUpVC.alert.userExists = "ユーザーが存在します";
+signUpVC.alert.heightInCmIncorrect = "身長入力50-250 cms.";
+signUpVC.alert.weightInKgIncorrect = "体重30-200 kgs.";
+signUpVC.alert.heightInInchIncorrect = "身長入力19.7-98.4 inch.";
+signUpVC.alert.weightInLbIncorrect = "体重66.19-440.9 lb.";
+//signUpVC.alert.MorningFastingAlert = "*8時間以上食べ物がない \n*1週間に少なくとも1回更新してください";
+signUpVC.alert.MorningFastingAlert = "*8時間以上食べ物がない \n*1週間に1度、空腹時の値を較正してください";
+
+signUpVC.alert.glucInMmolIncorrect = "グルコース 3.1-17.5 mmol/L.";
+signUpVC.alert.glucInMgIncorrect = "グルコース 55.86-315.3 mg/dL.";
+
+signUpVC.alert.fillAllData = "すべてが必要です";
+signUpVC.alert.ageIncorrect = "適用年齢12歳以上";
+
+editProfile.title = "プロファイル編集";
+
+//Home Screen
+
+homeVC.alert.logOutAlert = "本当に終了してもよろしいですか？";
+homeVC.title = "メインページ";
+
+//Normal user //Type2 User
+
+normalUserTestVC.alert.chooseMeal = "まずは食事条件をお選びください。";
+normalUserTestVC.title = "計測";
+type2UserTestVc.morningFastingAlert = "*8時間以上食べ物がない \n*ノーマルとして設定してください";
+
+//Unit Settings screen
+
+unitSettingVC.title = "単位設定";
+
+
+
+//Guide screen
+
+guideVC.title = "ガイド";
+
+
+//History screen
+
+historyVC.title = "ヒストリー";
+
+historyVC.alert.noRecord = "レコードが見つかりません";
+
+historyVC.dayText = "日";
+historyVC.weekText = "週間";
+historyVC.monthText = "月";
+historyVC.periodText = "期間";
+
+historyVC.mailSubject = "健康告知";
+historyVC.mailMessage = "ESER Health Care Digital Technology Co Ltd";
+historyVC.alertTitle.mailNotSend = "電子メールを送信できませんでした";
+historyVC.alert.mailNotSend = "デバイスは電子メールを送信できませんでした。再度試してみるには、メールの設定やインターネットを確認してください。";
+
+historyVC.fileName = "健康報告書";
+historyVC.wrongPeriodDateSelectionAlertMessagse = "開始日が終了日より大きい場合は、正しい期間を選択してください";
+
+
+//Health Reminder screen
+
+healthReminderScreen.title = "リマインダー";
+
+healthReminderVC.heading1 = "空腹時";
+healthReminderVC.heading2 = "朝食";
+healthReminderVC.heading3 = "昼食";
+healthReminderVC.heading4 = "夕食";
+healthReminderVC.heading5 = "就寝時";
+healthReminderVC.heading6 = "他の";
+
+//Start test screen VC
+
+startTestVC.title = "計測";
+startTestVC.lblInstText = "リラックス! \n シルバーセンサーに圧力をかけないでください。";
+
+//Measurement Settings screen
+
+measurementSettingsVC.title = "測定設定";
+measurementSettingsVC.alert.incorrectValues = "正しい値を入力してください";
+measurementSettingsVC.alert.IncompleteData = "すべての値を記入してください";
+measurementSettingsVC.alert.changeSettings = "測定設定が変更されます。";
+measurementSettingsVC.reportName = "健康報告書";
+
+//Select user
+
+selectUserVC.title = "ユーザーを選択";
+
+//User instruction screen // Power mgmt screen
+
+userInstVC.title = "ユーザーインストラクション";
+powerMgmtVC.title = "電源管理";
+
+userInstVC.lblContent = "Vigori日記は多くの健康データを取得に便利です。\n\n非侵襲なので無痛です。痛みを感じません。また一日に複数回使用も問題ありません。\n\n統合されたセンサー技術の組み合わせで各種のデータを収集することが可能です。";
+
+powerMgmtVC.lblContent = "1) 電源ボタンを押してください。\n\n2) 3分を使用しない場合、製品は自動的にシャットダウンします。\n\n3) テストが完了し、オフ約3秒間電源ボタンを押してください。\n\n4) 充電中は計測出来ません。\n\n5) 30％未満の推奨パワー、完全に測定された後、充電さしてください。";
+
+//Notices Screen
+noticeVC.title = "お知らせ";
+
+//product basics Screen
+
+productBasics.title = "製品の説明";
+
+//Edit Reminder Screen
+
+editReminder.title = "リマインダーを編集";
+editReminder.alert.saveChanges = "変更を保存しますか？";
+
+// Manage Accounts screen
+
+manageAccounts.title = "アカウントの管理";
+manageAccounts.noUserFoundAlert = "ユーザーが見つかりません";
+manageAccounts.deleteAccAlert = "選択したアカウントを削除してもよろしいですか？";
+manageAccounts.accDeletedAlert = "アカウントが正常に削除されました!";
+manageAccounts.noAccToDeleteAlert = "削除するアカウントを選択してください";
+
+//Measurement Record
+
+measurementRecord.title = "測定記録";
+measurementRecord.2HrAfterMealText = "食後2時間";
+measurementRecord.mrngFasting = "空腹時";
+
+measurementRecord.medicationText = "治療";
+measurementRecord.noMedicationText = "治療なし";
+measurementRecord.alert.deleteRecord = "レコードを削除してもよろしいですか？";
+
+//Sidebar Menu
+
+menu.bluetoothText = "ブルートゥース";
+menu.editUserText = "ユーザー情報変更";
+menu.unitSettingsText = "単位設定";
+menu.reminderSettingsText = "リマインダの設定";
+menu.measurementRecordsText = "測定記録";
+menu.switchUserText = "ユーザー切り替え";
+menu.signOutText = "サインアウト";
+menu.manageAccountsText = "アカウントの管理";
+
+//notifications
+
+notificationText = "あなたの健康告知はで設定されています";
+
+notificationText2 = "あなたの薬物治療リマインダーはで設定されています";
+
+notificationText3 = "メジャーリマインダーはで設定されています";
+
+notificationText4 = "あなたのメジャーと投薬のリマインダーはで設定されています";
+reminderAlert = "あなたの健康のリマインダは今のところ設定されています！";
+
+reminderAlert2 = "親切に測定と投薬を思い出させる";
+reminderAlert3 = "親切に薬を思い出させる";
+reminderAlert4 = "親切に思い出させる";
+
+// Bluetooth connectivity screen
+
+BtConnVC.remainingTimeText = "残り時間: ";
+
+BtConnVC.testing.screen1Text = "定期的に健康状態をチェックする";
+
+BtConnVC.testing.screen2Text = "ほとんどの曜日に30分間の身体活動に参加する";
+
+BtConnVC.testing.screen3Text = "リラックスしたアクティビティを通してストレスを管理する";
+
+BtConnVC.testing.screen4Text = "右食べます \n ダイエットや注文の量に従ってください \n 野菜の2人前 \n 2部品タンパク質 \n 1炭水化物";
+
+BtConnVC.testing.screen5Text = "よく眠る";
+
+BtConnVC.testing.screen6Text = "水を加えます";
+
+HealthReport.Content = "<Br />ヘモグロビン情報：<Br /><Br /> 1.ヘモグロビン値が低い：一般的に貧血としても知られる、女性によく見られます。 <Br /> 2.めまい、疲労、タール便、または血液便などの症状では、さらなる検査のために病院に行くことをお勧めします。 <Br /> 3.鉄分が豊富でタンパク質が豊富な食品を多く、またビタミンCを消費することが推奨されています。鉄の吸収に役立ちます。 <Br /> 4.ヘモグロビン値が高い：血液が濃縮され、流れにくい。さらなる検査のために病院に行くことをお勧めします。 <Br /><Br />グルコース情報：<Br /><Br /> BGL値が低すぎたり高すぎたりすると、<Br /> 1.スマートセンサーが適切な試験条件下で使用されていることをまず確認します。<Br /> 2.血糖値は100mg / dLそれは低血糖を避けるためにキャンディとクッキーの部分を食べて体の砂糖を補充することをお勧めします。 <Br /> 3.血糖値は300mg / dLを超えてはいけません。めまいや嘔吐などの症状がないことを確認してください。十分な量の水を飲み、1時間後に再度試験する。 <Br /> 4.血糖値が300mg / dLを超える場合は、検査のために病院に行くことをお勧めします。<Br /> <Br />パルス情報：<Br /><Br />パルス値が低いか高い場合、<Br />1。低：60bpmより低く、一般に房室ブロックまたは頭蓋内圧の上昇に見られる。 <Br /> 2.パルス値が高い：100bpm以上、一般的に発熱、貧血、または冠状動脈性心疾患に見られる。 <Br /> 3.通常は他の身体的症状に似ていますが、さらなる検査のために病院へ行くことをお勧めします。<Br />血流速度情報：<Br /><Br /> 1. BFV値は、血管の「容積率」とも呼ばれます。<Br />2.心臓の血流は、収縮期および拡張期の心拍によって影響を受けます。収縮期の心拍は血流を加速し、拡張期の心拍は血流を遅くします。<Br /> 3。血管が弾力性であれば、血流は遅くなります。私たちは、このテストから得られた値を使用して、同じ年齢の人の血流を比較することができます。したがって、人の血管がより早く老化しているかどうかを推論します実際の人の年齢。 <Br /><Br />あなたの血管を弾力的に保つ方法：<Br /><Br /> 1.一定の運動を維持する<Br /> 2.タンパク質やビタミンなどバランスのとれた栄養摂取量を維持する<Br /> 3。血糖値、血圧、 <Br /> 4.酸素の飽和を減らすために毎日十分な水を飲む。<Br /><Br />酸素飽和度（SpO2）情報：<Br /><Br />1. 94％未満：酸素不足。<Br /> 2. 90％未満。低血圧。 <Br /> 3. SpO2が90％未満の場合、胸が詰まった状態、疲労、呼吸困難の症状を示すため、検査のために病院に行くことをお勧めします。";
+
+// Starting Screen
+title = "活力の完全な日は自己の健康監視から始まります。";
+popupTitle = "Gluco Tracker 使用上の注意";
+popupDesc = "この監視データは、毎日の状態を監視するためのものであり、医師の診察、カウンセリング、診断、または推奨される治療を置き換えることはできません。健康管理の数値に異常がある場合は、すぐに専門家の検出のために病院に行ってください。";
+acceptBtnText = "受け入れる";

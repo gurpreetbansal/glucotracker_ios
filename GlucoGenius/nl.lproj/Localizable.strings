@@ -1,0 +1,322 @@
+/*
+ Localizable.strings
+ Vigori Diary
+ 
+ Created by i mark on 10/11/16.
+ Copyright © 2016 i mark. All rights reserved.
+ */
+// Dutch
+
+
+//Common
+
+mmol_LUnitText = "mmol/L";
+mg_dLUnitText = "mg/dL";
+inchUnitText = "inch";
+cmUnitText = "cm";
+unitAText = "Unit A";
+unitBtext = "Unit B";
+dextroseText = "Dextrose";
+
+kgUnitText = "kg";
+lbUnitText = "lb";
+
+g_LUnitText = "g/L";
+g_dLUnitText = "g/dL";
+
+successtext = "Success!";
+oopsText = "Oeps!";
+errorText = "Fout!";
+alertText = "Alert!";
+okText = "Ok";
+cancelText = "Annuleren";
+messageText = "Bericht!";
+timePerMinUnitText = "tijd/min";
+auUnitText = "AU";
+yearsText = "jaar";
+hideText = "Verbergen";
+measureText = "Maatregel";
+
+datesText = "Datum";
+timeText = "Tijd";
+SpO2Text = "SpO2";
+
+signUPBtnText1 = "Heeft u geen nog geen account?";
+signUPBtnText2 = "Registreren";
+
+signUpVC.loginBtnText1 = "Heeft u al een account?";
+signUpVC.loginBtnText2 = "Log In";
+
+helloText = "Hallo";
+bloodGlucoseText = "Bloed glucose";
+oxygenSaturationText = "Zuurstofverzadiging";
+hemoglobinText = "Hemoglobine";
+bloodFlowVelocityText = "Bloedstroomsnelheid";
+pulseText = "Pols";
+yourRecentMeasurementAt = "Je recente meting bij";
+
+resultText = "Resultaat";
+dietText = "Dieet";
+deleteText = "Verwijder";
+
+reminderText = "Herinnering";
+
+//Test Result
+
+testResultVC.title = "Testresultaat";
+testResultVC.envrTempCode = "ET";
+testResultVC.envrHumiCode = "EH";
+testResultVC.surfTempCode = "ST";
+testResultVC.surfHumiCode = "SH";
+testResultVC.mailMessage = "Gezondheid verslag van Gebruiker:";
+testResultVC.atText = "op";
+testResultVC.titleNotice = "Metabolisme ruilwaarde is enige referentie, geen diagnose data";
+unitNoteMessage = "*Unit A een mmol / L\n*Unit B staat voor mg / dL";
+
+//MealSize selection Screen
+
+mealSizeVC.CarbohydrateText = "inname van koolhydraten";
+mealSizeVC.noticeText = "*Geschikte carb inname is 1 portie, de grootte zoals een vuist.";
+mealSizeVC.smallText = "Klein";
+mealSizeVC.mediumText = "Medium";
+mealSizeVC.largeText = "Groot";
+mealSizeVC.nextText = "Volgende";
+
+//Health reference Screen
+
+healthReferenceVC.title = "Gezondheidsreferentie";
+menu.HealthRefText = "* Gezondheidsreferentie *";
+
+//Bluetooth connectivity Screen
+
+btConnVC.firstTitle = "Detecteren";
+btConnVC.secondTitle = "Testen";
+btConnVC.alert.timeOut = "Time Out!";
+btConnVC.lblProcessingText = "Aan het verwerken, blijf in huidige houding";
+
+btConnVC.lblInst1.text = "*Wacht instructies af voor het invoegen van de vinger";
+btConnVC.lblInst2.text = "*Aanbevolen omgevingstemperatuur: 20-27 graden Celsius";
+btConnVC.lblInst3.text = "*Geschikte vinger temperatuur 29 ゚ C - 35 ゚ C";
+
+btConnVC.alert.resetDevice = "Reset het apparaat voor het gebruik!";
+btConnVC.alert.LessThan3mins = "afkoelperiode van 5 min, probeer het later opnieuw!";
+btConnVC.alert.DeviceNotFound = "Apparaat niet gevonden";
+
+btConnVC.alert.deviceNotResponding = "Apparaat reageert niet, reset het apparaat en probeer het opnieuw!";
+btConnVC.alert.envrTempLow = "Omgevingstemperatuur te laag, probeer het in een ander klimaat opnieuw!";
+btConnVC.alert.batteryLow = "Batterijpercentage is te laag voor het testen!";
+
+btConnVC.alert.envrTempHigh = "Omgevingstemperatuur te hoog, probeer het in een andere omgeving opnieuw!";
+btConnVC.alert.envrTempDry = "De milieu luchtvochtigheid is te droog voor de test, probeer het in een andere omgeving opnieuw!";
+btConnVC.alert.envrHumid = "De milieu luchtvochtigheid is te hoog voor de test, probeer het in een andere omgeving opnieuw!";
+
+btConnVC.alert.probeNotInserted = "Vinger niet gedetecteerd!";
+btConnVC.alert.fingerNotInsertedProperly = "Vinger is niet goed geplaatst!";
+btConnVC.alert.wrongDataCollection = "Verkeerde informatie verzameld, probeer het opnieuw!";
+btConnVC.alert.probeNotInsertedProperly = "Probe is niet goed ingebracht, dit kan leiden tot het meten van foutieve gegevens!";
+btConnVC.alert.checkSensors = "Controleer sensoren";
+btConnVC.alert.incorectTestResult = "Foutieve testresultaten gemeten, plaats uw vinger a.u.b. correct op de sensor";
+
+btConnVC.alert.insertProbe = "Plaats uw vinger op de sensor";
+btConnVC.alert.compliantEnvr = "Voldoet aan klimaat voorwaardes";
+btConnVC.alert.btDetectionfail = "Bluetooth verbindingen detecteren mislukt";
+btConnVC.alert.return = "Voldoet niet aan klimaat voorwaardes, applicatie keert terug naar het vorig scherm…";
+btConnVC.alert.btDetection = "Bluetooth verbinding detecteren...";
+btConnVC.alert.deviceDiscoonected = "Apparaat losgekoppeld!";
+
+btConnVC.alert.probeInserted = "Vinger geplaatst";
+btConnVC.alert.probeRemoved = "Vinger verwijderd!";
+btConnVC.alert.fingerTempLow = "Vinger temp is te laag, dit kan leiden tot foutieve meetgegevens";
+btConnVC.alert.fingerTempHigh = "Vinger temp is te hoog, dit kan leiden tot foutieve meetgegevens";
+
+//Bluetooth devices Screen
+
+btDevicesVC.title = "Bluetooth verbinding";
+btDevicesVC.alert.deviceConnected = "Apparaat verbonden";
+btDevicesVC.headerText = "Beschikbare apparaten";
+
+//Login Screen
+
+loginVC.alert.userNotExist = "Gebruiker bestaat niet";
+loginVC.alert.enterUsernamePwd = "Voer gebruikersnaam en wachtwoord in";
+
+
+//SignUp Screen // Edit user
+
+signUpVC.TextMale = "Man";
+signUpVC.TextFemale = "Vrouw";
+signUpVC.alert.userExists = "Gebruiker bestaat al";
+signUpVC.alert.heightInCmIncorrect = "Lengte moet binnen het bereik van 50-250 cm zijn";
+signUpVC.alert.weightInKgIncorrect = "Gewicht moet binnen het bereik van 30-200 kg zijn.";
+signUpVC.alert.heightInInchIncorrect = "Lengte moet binnen het bereik van 19,7-98,4 inch zijn";
+signUpVC.alert.weightInLbIncorrect = "Gewicht moet binnen het bereik van 66,19-440,9 lb zijn";
+//signUpVC.alert.MorningFastingAlert = "*geen voedsel meer dan 8 uur \n*Update het ten minste eenmaal per week";
+signUpVC.alert.MorningFastingAlert = "* geen voedsel meer dan 8 uur \n* Kalibreer de ochtendvastwaarde een keer per week";
+
+signUpVC.alert.glucInMmolIncorrect = "Glucose moet binnen het bereik van 3.1-17.5 mmol/L zijn";
+signUpVC.alert.glucInMgIncorrect = "Glucose moet binnen het bereik van 55.86-315.3 mg/dL zijn";
+
+signUpVC.alert.fillAllData = "Alle velden zijn verplicht!";
+signUpVC.alert.ageIncorrect = "U moet 12 jaar of ouder zijn om succesvol gemeten te kunnen worden";
+
+editProfile.title = "Bewerk profiel";
+
+//Home Screen
+
+homeVC.alert.logOutAlert = "Weet u zeker dat u wilt afsluiten?";
+homeVC.title = "Profiel";
+
+//Normal user //Type2 User
+
+normalUserTestVC.alert.chooseMeal = "Kies de maaltijd eerst!";
+normalUserTestVC.title = "Test";
+type2UserTestVc.morningFastingAlert = "*geen voedsel meer dan 8 uur \n*Gelieve in te stellen als Normal";
+
+//Unit Settings screen
+
+unitSettingVC.title = "Eenheid instellingen";
+
+
+
+//Guide screen
+
+guideVC.title = "Handleiding";
+
+
+//History screen
+
+historyVC.title = "Geschiedenis";
+
+historyVC.alert.noRecord = "Geen metingen gevonden";
+
+historyVC.dayText = "Dag";
+historyVC.weekText = "Week";
+historyVC.monthText = "Maand";
+historyVC.periodText = "Periode";
+
+historyVC.mailSubject = "Gezondheidsverslag";
+historyVC.mailMessage = "ESER Healthcare Digital Technology";
+historyVC.alertTitle.mailNotSend = "Kan de e-mail niet verzenden";
+historyVC.alert.mailNotSend = "Het apparaat kon geen e-mail verzenden. Gelieve uw e-mail configuratie te controleren en opnieuw te proberen";
+
+historyVC.fileName = "Gezondheidsverslag.csv";
+historyVC.wrongPeriodDateSelectionAlertMessagse = "Startdatum is groter dan de einddatum, Kies de juiste periode";
+
+
+//Health Reminder screen
+
+healthReminderScreen.title = "Herinneringen";
+
+healthReminderVC.heading1 = "Nuchtere meting";
+healthReminderVC.heading2 = "Ontbijt";
+healthReminderVC.heading3 = "Lunch";
+healthReminderVC.heading4 = "Avondeten";
+healthReminderVC.heading5 = "slapen";
+healthReminderVC.heading6 = "Overig";
+
+//Start test screen VC
+
+startTestVC.title = "Test";
+startTestVC.lblInstText = "Ontspan en oefen geen druk uit op de zilveren sensor!";
+
+//Measurement Settings screen
+
+measurementSettingsVC.title = "Meetinstellingen";
+measurementSettingsVC.alert.incorrectValues = "Waardes onjuist";
+measurementSettingsVC.alert.IncompleteData = "Gelieve alle waarden invullen";
+measurementSettingsVC.alert.changeSettings = "Meetinstellingen zullen worden veranderd!";
+measurementSettingsVC.reportName = "Gezondheidsverslag";
+
+//Select user
+
+selectUserVC.title = "Selecteer geslacht";
+
+//User instruction screen // Power mgmt screen
+
+userInstVC.title = "Gebruiksaanwijzing";
+powerMgmtVC.title = "Energiebeheer";
+
+userInstVC.lblContent = " De Vigory Diary, health assistent is nuttig voor het verkrijgen van veel informatie over uw lichaam.\n\nHet is non-invasieve manier van meten, zodat u geen pijn ervaart tijdens het testen. U kunt er meerdere malen per dag gebruik van maken. Op deze manier kunt een goed overzicht hebben van uw lichaam. \n\nDoor middel van talloze op laboratorium gebaseerde onderzoeken naar experimenten en combinatie van geïntegreerde sensortechnologie, is de Vigory Diary in staat om diverse medische gegevens te verzamelen.";
+
+powerMgmtVC.lblContent = "1) Druk op de knop aan de voorzijde om de Vigori Diary aan te zetten. \n\n2) Apparaat wordt automatisch uitgeschakeld binnen 3 minuten geen gebruik gemaakt te hebben.\n\n3) Na het testen, drukt u op de knop voor ongeveer 3 seconden om af te sluiten. \n\n4)Het testen is niet toegestaan tijdens het opladen.\n\n5) Als de batterij is lager dan 20% kunt u niet meten, graag opladen voor het testen.";
+
+//Notices Screen
+noticeVC.title = "Attentie";
+
+//product basics Screen
+
+productBasics.title = "Handleiding";
+
+//Edit Reminder Screen
+
+editReminder.title = "Herinneringen bewerken";
+editReminder.alert.saveChanges = "Wilt u de wijzigingen opslaan?";
+
+// Manage Accounts screen
+
+manageAccounts.title = "Accounts beheren";
+manageAccounts.noUserFoundAlert = "Geen gebruiker gevonden";
+manageAccounts.deleteAccAlert = "Alle velden Bent u zeker dat u geselecteerde accounts wilt verwijderen?";
+manageAccounts.accDeletedAlert = "Accounts zijn succesvol verwijderd!";
+manageAccounts.noAccToDeleteAlert = "Selecteer een account om te verwijderen";
+
+//Measurement Record
+
+measurementRecord.title = "Meetgeschiedenis";
+measurementRecord.2HrAfterMealText = "2 uur na de maaltijd";
+measurementRecord.mrngFasting = "Ochtend vasten";
+
+measurementRecord.medicationText = "Medicijnen";
+measurementRecord.noMedicationText = "Geen Medicijnen";
+measurementRecord.alert.deleteRecord = "Weet u zeker dat u de meting wilt verwijderen?";
+
+//Sidebar Menu
+
+menu.bluetoothText = "Bluetooth";
+menu.editUserText = "Profiel bewerken";
+menu.unitSettingsText = "Eenheid instellingen";
+menu.reminderSettingsText = "Alarm";
+menu.measurementRecordsText = "Meetgeschiedenis";
+menu.switchUserText = "Verander van gebruiker";
+menu.signOutText = "Uitloggen";
+menu.manageAccountsText = "Accounts beheren";
+
+//notifications
+
+notificationText = "Your Health herinnering is ingesteld op";
+
+notificationText2 = "Uw medicatie herinnering is ingesteld op";
+
+notificationText3 = "Uw Measure herinnering is ingesteld op";
+
+notificationText4 = "Uw Meet en medicatie herinnering is vastgesteld op";
+reminderAlert = "Uw gezondheid herinnering is ingesteld voor nu!";
+
+reminderAlert2 = "Gelieve eraan te herinneren voor maatregel en medicatie";
+reminderAlert3 = "Gelieve eraan te herinneren aan medicijnen";
+reminderAlert4 = "Gelieve eraan te herinneren voor maatregel";
+
+// Bluetooth connectivity screen
+
+BtConnVC.remainingTimeText = "Overgebleven tijd: ";
+
+BtConnVC.testing.screen1Text = "Controleer regelmatig de gezondheid";
+
+BtConnVC.testing.screen2Text = "Deelnemen in 30 minuten fysieke activiteit op de meeste dagen van de week";
+
+BtConnVC.testing.screen3Text = "Het beheer van stress door middel van activiteiten vindt u ontspannen";
+
+BtConnVC.testing.screen4Text = "Eet goed \n Volg de onderstaande dieet orde en deel \n 2 Portion Groenten \n 2 Portion Protein \n 1 portie Koolhydraten";
+
+BtConnVC.testing.screen5Text = "Welterusten";
+
+BtConnVC.testing.screen6Text = "Blijf gehydrateerd";
+
+HealthReport.Content = "<Br />Hemoglobine informatie: <Br /><Br /> 1.Hemoglobin waarde laag: vaker gezien bij vrouwen, ook bekend als bloedarmoede. <Br /> 2.In symptomen zoals duizeligheid, vermoeidheid, teerachtige ontlasting of bloed ontlasting, is het raadzaam om te gaan naar het ziekenhuis voor verder onderzoek. <Br /> 3.It wordt aanbevolen om meer ijzer rijke en eiwitrijke voedingsmiddelen, maar ook vitamine C consumeren, het helpt bij de opname van ijzer. <Br /> 4.Hemoglobin waarde hoog: Blood is geconcentreerd, en harder te stromen. Het wordt aangeraden om naar het ziekenhuis voor verder onderzoek. <Br /><Br /> Glucose informatie: <Br /><Br /> Wanneer BGL waarde te laag of te hoog, <Br /> 1.First controleren of de intelligente sensor wordt gebruikt onder geschikte testomstandigheden <Br /> 2.Blood glucose mag niet lager zijn dan 100 mg / dL. , is het raadzaam om het lichaam suiker te vullen door het eten van snoepje en cookie te lage bloedsuikerspiegel te voorkomen. <Br /> 3.Blood glucose mag niet hoger zijn dan 300 mg / dL, zorg ervoor dat er geen symptomen zoals duizeligheid of braken optreden. Drink veel water en test opnieuw na een uur. <Br /> 4.Indien bloedglucose hoger is dan 300 mg / dL, is het raadzaam om het ziekenhuis te gaan voor verder onderzoek <Br /><Br /> Pols informatie:. <Br /><Br /> Als Pols waarde is laag of hoog, <Br /> 1.Pols waarde laag: lager dan 60bpm, vaak gezien in atrioventriculair blok of een verhoogde intracraniële druk. <Br /> 2.Pols waarde is hoog: meer dan 100bpm, vaak gezien in koorts, bloedarmoede, of coronaire hartziekten. <Br /> 3.It wordt meestal companied met andere lichamelijke klachten, is het raadzaam om het ziekenhuis te gaan voor verder onderzoek <Br /><Br /> Blood Flow Velocity informatie:. <Br /><Br /> 1. BFV waarde wordt aangeduid als de tijdseenheid gevlogen door een deel van het bloedvat, ook wel 'debiet'. <Br /> 2.Arterial bloedstroom wordt beïnvloed door systolische en diastolische hartslag. Systolische hartslag versnelt de bloedstroom en diastolische hartslag vertraagt ​​de bloedstroom <Br /> 3.When bloedvat is elastisch, de doorbloeding is langzamer.; Wanneer bloedvat wordt materiaal, zal bloedstroom aanzienlijk sneller. <Br /> 4.We kan de waarde op basis van deze testen gebruikt om de bloedstroom van een persoon van dezelfde leeftijd vergelijken, en dus afleiden of bloedvat van de persoon sneller dan verouderd wordt leeftijd van de werkelijke persoon. <Br /><Br /> Hoe kunt u uw bloedvaten elastisch te houden: <Br /> <Br /> 1.Maintain constante oefening <Br /> 2.Maintain evenwichtige voeding inname zoals eiwitten en vitaminen <Br /> 3.Regulate drie Lengtepunten: bloedglucose, bloeddruk en vetgehalte in het bloed . <Br /> 4.Drink genoeg water per dag te verminderen bloedvat plakkerigheid <Br /><Br /> Oxygen Saturation (SpO2) Informatie:. <Br /><Br /> 1.Less dan 94%. Gebrek aan zuurstof <Br /> 2.Less dan 90%: hypoxemie. <Br /> 3.In geval van SpO2 minder dan 90%, en toont symptomen van een verstopte borst, vermoeidheid en ademhalingsmoeilijkheden, is het raadzaam om naar het ziekenhuis voor onderzoek.";
+
+
+// Starting Screen
+title = "Een dag vol vitaliteit begint met zelfmonitoring.";
+popupTitle = "Kennisgeving over het gebruik van GlucoTracker";
+popupDesc = "Deze controlegegevens zijn alleen bedoeld om uw dagelijkse status te controleren en kunnen het bezoek van de arts, counseling, diagnose of aanbevolen behandeling niet vervangen. Als de gezondheidsmanagement numerieke afwijkingen heeft, ga dan onmiddellijk naar het ziekenhuis voor professionele detectie.";
+acceptBtnText = "Accepteren";

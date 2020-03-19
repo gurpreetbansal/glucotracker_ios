@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="UserInfo" syncable="YES">
+        <attribute name="a_gluc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="biguanide" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diabetes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="glucose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="no_medication" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sulphonyl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserMeasurementSettings" syncable="YES">
+        <attribute name="bloodFlowMax" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bloodFlowMin" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hbMax" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hbMin" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="measurementSetting_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mrngFastGlucoseMax" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mrngFastGlucoseMin" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="oxSatMax" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="oxSatMin" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pulseMax" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pulseMin" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="twoHrFastGlucoseMax" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="twoHrFastGlucoseMin" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserRecord" syncable="YES">
+        <attribute name="battery" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="diet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="envrHumi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="envrTemp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gluc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oxSat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pulse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="record_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surfHumi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surfTemp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <fetchedProperty name="fetchedProperty" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="UserRecord"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="UserReminderSettings" syncable="YES">
+        <attribute name="heading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="measure_medication" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reminderSettings_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="row" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="UserInfo" positionX="-54" positionY="-9" width="128" height="255"/>
+        <element name="UserMeasurementSettings" positionX="-54" positionY="126" width="128" height="300"/>
+        <element name="UserRecord" positionX="-54" positionY="63" width="128" height="314"/>
+        <element name="UserReminderSettings" positionX="-54" positionY="144" width="128" height="150"/>
+    </elements>
+</model>
